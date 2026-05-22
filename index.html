@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WeProvideLeads — Exclusive Guelph Home Service Leads for Local Contractors</title>
+<meta name="description" content="We operate 10 Guelph home service websites that generate real homeowner leads. Exclusive leads delivered to one contractor per vertical. Mold removal, roofing, HVAC, electrical, waterproofing and more.">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta property="og:title" content="WeProvideLeads — Exclusive Guelph Home Service Leads">
+<meta property="og:description" content="We own and operate 10 local Guelph service websites. Homeowners find us, we send you the lead. Exclusive. Pay per lead.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://weprovideleads.com/">
+<link rel="canonical" href="https://weprovideleads.com/">
+
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"WeProvideLeads","url":"https://weprovideleads.com","description":"Exclusive pay-per-lead service for Guelph and Wellington County home service contractors. We operate 10 local service websites and deliver qualified homeowner leads directly to contractors.","areaServed":{"@type":"City","name":"Guelph","sameAs":"https://www.wikidata.org/wiki/Q37776"},"email":"ads@vrume.com","potentialAction":{"@type":"ContactAction","target":"https://weprovideleads.com/#contact"}}</script>
+
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How do WeProvideLeads generate home service leads?","acceptedAnswer":{"@type":"Answer","text":"We own and operate 10 dedicated home service websites targeting Guelph and Wellington County. Each site ranks in Google Search for its trade category. When a homeowner fills out a contact form or calls, that inquiry is forwarded exclusively to you."}},{"@type":"Question","name":"Are the leads exclusive?","acceptedAnswer":{"@type":"Answer","text":"Yes. We work with one contractor per trade category per area. Your leads are not resold or shared with competitors."}},{"@type":"Question","name":"What trades do you have leads for?","acceptedAnswer":{"@type":"Answer","text":"We generate leads for mold removal, hydrovac excavation, moving, commercial cleaning, interlocking, roofing, HVAC and air conditioning, junk removal, basement waterproofing, and electrical services — all in the Guelph and Wellington County area."}},{"@type":"Question","name":"How are leads delivered?","acceptedAnswer":{"@type":"Answer","text":"Leads are forwarded to you in real time by email and phone. When a homeowner submits a form on one of our sites, you receive their name, contact info, service type, and any details they provided — usually within minutes."}},{"@type":"Question","name":"Is there a long-term contract?","acceptedAnswer":{"@type":"Answer","text":"No. We work on a pay-per-lead basis with no long-term commitments. You can pause or stop at any time."}},{"@type":"Question","name":"What areas do the leads cover?","acceptedAnswer":{"@type":"Answer","text":"Our sites target Guelph and surrounding Wellington County communities including Fergus, Elora, Rockwood, Erin, Puslinch, and Centre Wellington."}}]}</script>
+
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --blue:    #1a56db;
+    --blue-dk: #1345b7;
+    --blue-lt: #eff4ff;
+    --dark:    #111827;
+    --mid:     #374151;
+    --muted:   #6b7280;
+    --border:  #e5e7eb;
+    --bg:      #f9fafb;
+    --white:   #ffffff;
+    --green:   #059669;
+    --radius:  10px;
+  }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    color: var(--mid);
+    background: var(--white);
+    line-height: 1.6;
+    font-size: 16px;
+  }
+
+  /* ── NAV ── */
+  nav {
+    background: var(--white);
+    border-bottom: 1px solid var(--border);
+    padding: 0 24px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  .nav-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 64px;
+  }
+  .logo {
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: var(--dark);
+    text-decoration: none;
+    letter-spacing: -0.5px;
+  }
+  .logo span { color: var(--blue); }
+  .nav-cta {
+    background: var(--blue);
+    color: var(--white);
+    padding: 10px 22px;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background 0.2s;
+  }
+  .nav-cta:hover { background: var(--blue-dk); }
+
+  /* ── HERO ── */
+  .hero {
+    background: linear-gradient(135deg, #0f1f5c 0%, #1a56db 60%, #2563eb 100%);
+    color: var(--white);
+    padding: 80px 24px 90px;
+    text-align: center;
+  }
+  .hero-badge {
+    display: inline-block;
+    background: rgba(255,255,255,0.15);
+    border: 1px solid rgba(255,255,255,0.3);
+    border-radius: 100px;
+    padding: 6px 18px;
+    font-size: 0.82rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-bottom: 28px;
+  }
+  .hero h1 {
+    font-size: clamp(2rem, 5vw, 3.2rem);
+    font-weight: 800;
+    line-height: 1.15;
+    max-width: 780px;
+    margin: 0 auto 22px;
+    letter-spacing: -1px;
+  }
+  .hero h1 em { font-style: normal; color: #93c5fd; }
+  .hero p {
+    font-size: 1.15rem;
+    max-width: 600px;
+    margin: 0 auto 38px;
+    opacity: 0.88;
+    line-height: 1.7;
+  }
+  .hero-btns { display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; }
+  .btn-primary {
+    background: var(--white);
+    color: var(--blue);
+    padding: 14px 32px;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 700;
+    text-decoration: none;
+    transition: all 0.2s;
+  }
+  .btn-primary:hover { background: #e0e7ff; }
+  .btn-outline {
+    border: 2px solid rgba(255,255,255,0.5);
+    color: var(--white);
+    padding: 14px 32px;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.2s;
+  }
+  .btn-outline:hover { border-color: var(--white); background: rgba(255,255,255,0.1); }
+
+  /* ── TRUST BAR ── */
+  .trust-bar {
+    background: var(--dark);
+    padding: 20px 24px;
+    text-align: center;
+  }
+  .trust-bar-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .trust-item {
+    color: #d1d5db;
+    font-size: 0.88rem;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .trust-item .check { color: #34d399; font-size: 1rem; }
+
+  /* ── SECTIONS ── */
+  section { padding: 80px 24px; }
+  .section-inner { max-width: 1100px; margin: 0 auto; }
+  .section-label {
+    font-size: 0.78rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: var(--blue);
+    margin-bottom: 12px;
+  }
+  h2 {
+    font-size: clamp(1.6rem, 3.5vw, 2.4rem);
+    font-weight: 800;
+    color: var(--dark);
+    letter-spacing: -0.5px;
+    line-height: 1.2;
+    margin-bottom: 16px;
+  }
+  .section-sub {
+    font-size: 1.05rem;
+    color: var(--muted);
+    max-width: 560px;
+    line-height: 1.7;
+    margin-bottom: 52px;
+  }
+
+  /* ── HOW IT WORKS ── */
+  #how { background: var(--bg); }
+  .steps {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 32px;
+  }
+  .step {
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 32px 28px;
+    position: relative;
+  }
+  .step-num {
+    width: 44px;
+    height: 44px;
+    background: var(--blue-lt);
+    color: var(--blue);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+  }
+  .step h3 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--dark);
+    margin-bottom: 10px;
+  }
+  .step p { font-size: 0.95rem; color: var(--muted); line-height: 1.65; }
+
+  /* ── VERTICALS ── */
+  #verticals { background: var(--white); }
+  .verticals-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 18px;
+  }
+  .vertical-card {
+    border: 1.5px solid var(--border);
+    border-radius: var(--radius);
+    padding: 24px 20px;
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    transition: border-color 0.2s, box-shadow 0.2s;
+  }
+  .vertical-card:hover {
+    border-color: var(--blue);
+    box-shadow: 0 4px 16px rgba(26,86,219,0.1);
+  }
+  .v-icon {
+    font-size: 1.8rem;
+    flex-shrink: 0;
+    line-height: 1;
+  }
+  .v-text h3 {
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: var(--dark);
+    margin-bottom: 4px;
+  }
+  .v-text p { font-size: 0.82rem; color: var(--muted); }
+  .v-badge {
+    display: inline-block;
+    background: #d1fae5;
+    color: var(--green);
+    font-size: 0.7rem;
+    font-weight: 700;
+    padding: 2px 8px;
+    border-radius: 100px;
+    margin-top: 6px;
+  }
+  .v-badge.taken { background: #fee2e2; color: #dc2626; }
+
+  /* ── WHY US ── */
+  #why { background: var(--bg); }
+  .why-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 28px;
+  }
+  .why-card {
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 30px 26px;
+  }
+  .why-icon {
+    font-size: 2rem;
+    margin-bottom: 16px;
+  }
+  .why-card h3 {
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: var(--dark);
+    margin-bottom: 8px;
+  }
+  .why-card p { font-size: 0.93rem; color: var(--muted); line-height: 1.65; }
+
+  /* ── SITES ── */
+  #network { background: var(--white); }
+  .sites-note {
+    background: var(--blue-lt);
+    border: 1px solid #bfdbfe;
+    border-radius: var(--radius);
+    padding: 20px 24px;
+    font-size: 0.93rem;
+    color: var(--blue-dk);
+    margin-bottom: 36px;
+    line-height: 1.6;
+  }
+  .sites-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 14px;
+  }
+  .site-pill {
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 14px 18px;
+    font-size: 0.88rem;
+    color: var(--mid);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .site-pill .dot {
+    width: 8px; height: 8px;
+    background: var(--green);
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+  .site-pill strong { color: var(--dark); }
+
+  /* ── FAQ ── */
+  #faq { background: var(--bg); }
+  .faq-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(440px, 1fr));
+    gap: 24px;
+  }
+  @media (max-width: 520px) {
+    .faq-grid { grid-template-columns: 1fr; }
+  }
+  .faq-item {
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 26px 24px;
+  }
+  .faq-item h3 {
+    font-size: 0.97rem;
+    font-weight: 700;
+    color: var(--dark);
+    margin-bottom: 10px;
+  }
+  .faq-item p { font-size: 0.92rem; color: var(--muted); line-height: 1.65; }
+
+  /* ── CONTACT ── */
+  #contact {
+    background: linear-gradient(135deg, #0f1f5c 0%, #1a56db 100%);
+    padding: 80px 24px;
+  }
+  #contact .section-label { color: #93c5fd; }
+  #contact h2 { color: var(--white); }
+  #contact .section-sub { color: rgba(255,255,255,0.75); }
+  .contact-wrap {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  .form-card {
+    background: var(--white);
+    border-radius: 14px;
+    padding: 44px 40px;
+  }
+  @media (max-width: 540px) {
+    .form-card { padding: 30px 24px; }
+  }
+  .form-card h3 {
+    font-size: 1.3rem;
+    font-weight: 800;
+    color: var(--dark);
+    margin-bottom: 6px;
+  }
+  .form-card p {
+    font-size: 0.9rem;
+    color: var(--muted);
+    margin-bottom: 28px;
+  }
+  .form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  }
+  @media (max-width: 520px) {
+    .form-row { grid-template-columns: 1fr; }
+  }
+  .form-group { margin-bottom: 16px; }
+  .form-group label {
+    display: block;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--dark);
+    margin-bottom: 6px;
+  }
+  .form-group input,
+  .form-group select,
+  .form-group textarea {
+    width: 100%;
+    border: 1.5px solid var(--border);
+    border-radius: 8px;
+    padding: 11px 14px;
+    font-size: 0.95rem;
+    color: var(--dark);
+    background: var(--white);
+    outline: none;
+    transition: border-color 0.2s;
+    font-family: inherit;
+  }
+  .form-group input:focus,
+  .form-group select:focus,
+  .form-group textarea:focus {
+    border-color: var(--blue);
+  }
+  .form-group textarea { resize: vertical; min-height: 90px; }
+  .form-submit {
+    width: 100%;
+    background: var(--blue);
+    color: var(--white);
+    border: none;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 8px;
+    transition: background 0.2s;
+    font-family: inherit;
+  }
+  .form-submit:hover { background: var(--blue-dk); }
+  .form-note {
+    font-size: 0.8rem;
+    color: var(--muted);
+    text-align: center;
+    margin-top: 14px;
+  }
+
+  /* ── FOOTER ── */
+  footer {
+    background: var(--dark);
+    color: #9ca3af;
+    padding: 32px 24px;
+    text-align: center;
+    font-size: 0.85rem;
+  }
+  footer a { color: #9ca3af; text-decoration: none; }
+  footer a:hover { color: var(--white); }
+  .footer-links { display: flex; gap: 24px; justify-content: center; margin-bottom: 14px; flex-wrap: wrap; }
+
+  @media (max-width: 680px) {
+    .hero { padding: 60px 20px 70px; }
+    section { padding: 60px 20px; }
+    .trust-bar-inner { gap: 18px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-inner">
+    <a href="/" class="logo">We<span>Provide</span>Leads</a>
+    <a href="#contact" class="nav-cta">Get a Quote</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-badge">Guelph &amp; Wellington County · Home Services</div>
+  <h1>Exclusive Local Leads.<br><em>We Run the Sites. You Get the Calls.</em></h1>
+  <p>We own and operate 10 home service websites ranking in Google for Guelph. When a homeowner fills out a form, you get the lead — exclusively.</p>
+  <div class="hero-btns">
+    <a href="#contact" class="btn-primary">Get a Quote →</a>
+    <a href="#how" class="btn-outline">How It Works</a>
+  </div>
+</section>
+
+<!-- TRUST BAR -->
+<div class="trust-bar">
+  <div class="trust-bar-inner">
+    <div class="trust-item"><span class="check">✓</span> 10 active Guelph websites</div>
+    <div class="trust-item"><span class="check">✓</span> One contractor per trade category</div>
+    <div class="trust-item"><span class="check">✓</span> Real homeowner inquiries — not ad clicks</div>
+    <div class="trust-item"><span class="check">✓</span> Pay per lead · No contracts</div>
+    <div class="trust-item"><span class="check">✓</span> Leads forwarded in real time</div>
+  </div>
+</div>
+
+<!-- HOW IT WORKS -->
+<section id="how">
+  <div class="section-inner">
+    <div class="section-label">How It Works</div>
+    <h2>Built different from typical lead gen</h2>
+    <p class="section-sub">We don't buy ads and resell clicks. We own the local websites that rank for your trade in Guelph — and we send you the homeowners who find us.</p>
+    <div class="steps">
+      <div class="step">
+        <div class="step-num">1</div>
+        <h3>Homeowner Searches Google</h3>
+        <p>A Guelph homeowner searches "mold removal Guelph" or "basement waterproofing Guelph." Our dedicated site ranks and they land on it.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">2</div>
+        <h3>They Fill Out a Form or Call</h3>
+        <p>The homeowner submits their name, phone, address, and job details through our site's contact form — or calls the listed number directly.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">3</div>
+        <h3>You Get the Lead Immediately</h3>
+        <p>The full inquiry is forwarded to you by email and phone within minutes. You contact the homeowner while their intent is at its highest.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">4</div>
+        <h3>You Pay Per Qualified Lead</h3>
+        <p>No setup fees. No monthly retainers. You pay only for leads that come in. Pricing is custom per trade — get a quote and we'll scope it together.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- VERTICALS -->
+<section id="verticals">
+  <div class="section-inner">
+    <div class="section-label">Available Categories</div>
+    <h2>10 trade verticals. One contractor per category.</h2>
+    <p class="section-sub">We have one active lead-gen site per trade. We work with one contractor partner per category — so your leads stay yours.</p>
+    <div class="verticals-grid">
+      <div class="vertical-card">
+        <div class="v-icon">🍄</div>
+        <div class="v-text">
+          <h3>Mold Removal</h3>
+          <p>guelphmoldremoval.com</p>
+          <span class="v-badge">Available</span>
+        </div>
+      </div>
+      <div class="vertical-card">
+        <div class="v-icon">🚿</div>
+        <div class="v-text">
+          <h3>Hydrovac</h3>
+          <p>guelphhydrovac.com</p>
+          <span class="v-badge">Available</span>
+        </div>
+      </div>
+      <div class="vertical-card">
+        <div class="v-icon">🚚</div>
+        <div class="v-text">
+          <h3>Moving</h3>
+          <p>guelphmovers.com</p>
+          <span class="v-badge">Available</span>
+        </div>
+      </div>
+      <div class="vertical-card">
+        <div class="v-icon">🧹</div>
+        <div class="v-text">
+          <h3>Commercial Cleaning</h3>
+          <p>guelphcommercialcleaning.com</p>
+          <span class="v-badge">Available</span>
+        </div>
+      </div>
+      <div class="vertical-card">
+        <div class="v-icon">🧱</div>
+        <div class="v-text">
+          <h3>Interlocking</h3>
+          <p>guelphinterlocking.com</p>
+          <span class="v-badge">Available</span>
+        </div>
+      </div>
+      <div class="vertical-card">
+        <div class="v-icon">🏠</div>
+        <div class="v-text">
+          <h3>Roofing</h3>
+          <p>guelphroofers.com</p>
+          <span class="v-badge">Available</span>
+        </div>
+      </div>
+      <div class="vertical-card">
+        <div class="v-icon">❄️</div>
+        <div class="v-text">
+          <h3>HVAC &amp; Air Conditioning</h3>
+          <p>guelphairconditioning.com</p>
+          <span class="v-badge">Available</span>
+        </div>
+      </div>
+      <div class="vertical-card">
+        <div class="v-icon">🗑️</div>
+        <div class="v-text">
+          <h3>Junk Removal</h3>
+          <p>guelphjunkremoval.com</p>
+          <span class="v-badge">Available</span>
+        </div>
+      </div>
+      <div class="vertical-card">
+        <div class="v-icon">💧</div>
+        <div class="v-text">
+          <h3>Basement Waterproofing</h3>
+          <p>guelphbasementwaterproofing.com</p>
+          <span class="v-badge">Available</span>
+        </div>
+      </div>
+      <div class="vertical-card">
+        <div class="v-icon">⚡</div>
+        <div class="v-text">
+          <h3>Electrical</h3>
+          <p>guelphelectrical.com</p>
+          <span class="v-badge">Available</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY US -->
+<section id="why">
+  <div class="section-inner">
+    <div class="section-label">Why WeProvideLeads</div>
+    <h2>Not an ad agency. Not a lead broker.</h2>
+    <p class="section-sub">We build and own the local websites ourselves — which means the leads are real, the intent is high, and you're not competing with five other contractors for the same inquiry.</p>
+    <div class="why-grid">
+      <div class="why-card">
+        <div class="why-icon">🏆</div>
+        <h3>We Own the Sites</h3>
+        <p>These aren't landing pages we bought from a wholesaler. We built 10 dedicated Guelph home service websites from scratch — with real content, blog posts, local schema, and Google Search Console verification. The sites rank because we invested in them.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon">🔒</div>
+        <h3>Exclusive Per Category</h3>
+        <p>One contractor. One trade. One territory. When you sign on as our roofing partner, roofing leads from Guelph go only to you. We don't sell the same lead to three companies and let you race to the phone.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon">📞</div>
+        <h3>Real Intent, Not Ad Clicks</h3>
+        <p>Homeowners who fill out a form on a service-specific website are actively looking to hire. They've searched, found our site, read about the service, and decided to reach out. That's a fundamentally higher-intent lead than a paid ad click.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon">📍</div>
+        <h3>Hyper-Local Focus</h3>
+        <p>Every site targets Guelph and Wellington County specifically — Fergus, Elora, Rockwood, Erin, Puslinch, Centre Wellington. These are homeowners in your service area, not leads from Toronto that never convert.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon">💳</div>
+        <h3>Pay Per Lead Only</h3>
+        <p>No setup fees. No monthly retainers. No long-term contracts. You pay for leads that come in, and pricing is scoped per trade based on average job value and lead volume. Start small and scale as you convert.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon">⚡</div>
+        <h3>Real-Time Delivery</h3>
+        <p>As soon as a homeowner submits a form, you receive their full inquiry by email — name, phone number, address, service details. You call while they're still in a hiring mindset, which is when you win the job.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- NETWORK -->
+<section id="network">
+  <div class="section-inner">
+    <div class="section-label">Our Network</div>
+    <h2>10 active sites. All ranking in Guelph.</h2>
+    <p class="section-sub">Each site is a standalone local business website — not a generic directory page — with unique content, blog posts, and structured data optimized for Google Search.</p>
+    <div class="sites-note">
+      🔎 Each site is indexed in Google Search Console, has local schema markup, FAQPage schema, Google Business Profile, and blog content targeting Guelph homeowner search terms. These are real websites, not parked pages.
+    </div>
+    <div class="sites-grid">
+      <div class="site-pill"><span class="dot"></span><div><strong>guelphmoldremoval.com</strong><br>Mold Removal</div></div>
+      <div class="site-pill"><span class="dot"></span><div><strong>guelphhydrovac.com</strong><br>Hydrovac Excavation</div></div>
+      <div class="site-pill"><span class="dot"></span><div><strong>guelphmovers.com</strong><br>Moving Services</div></div>
+      <div class="site-pill"><span class="dot"></span><div><strong>guelphcommercialcleaning.com</strong><br>Commercial Cleaning</div></div>
+      <div class="site-pill"><span class="dot"></span><div><strong>guelphinterlocking.com</strong><br>Interlocking &amp; Hardscaping</div></div>
+      <div class="site-pill"><span class="dot"></span><div><strong>guelphroofers.com</strong><br>Roofing</div></div>
+      <div class="site-pill"><span class="dot"></span><div><strong>guelphairconditioning.com</strong><br>HVAC &amp; Air Conditioning</div></div>
+      <div class="site-pill"><span class="dot"></span><div><strong>guelphjunkremoval.com</strong><br>Junk Removal</div></div>
+      <div class="site-pill"><span class="dot"></span><div><strong>guelphbasementwaterproofing.com</strong><br>Basement Waterproofing</div></div>
+      <div class="site-pill"><span class="dot"></span><div><strong>guelphelectrical.com</strong><br>Electrical</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq">
+  <div class="section-inner">
+    <div class="section-label">Common Questions</div>
+    <h2>What contractors usually ask</h2>
+    <p class="section-sub">Straight answers about how this works.</p>
+    <div class="faq-grid">
+      <div class="faq-item">
+        <h3>How do you generate the leads?</h3>
+        <p>We own 10 dedicated home service websites targeting Guelph and Wellington County. Each site ranks in Google Search for its trade category. When a homeowner fills out a contact form, that inquiry is forwarded to you in real time.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Are the leads exclusive to me?</h3>
+        <p>Yes. We work with one contractor per trade category per area. Your leads are not resold or shared with competitors. When you're our roofing partner, you're the only roofer who receives leads from our roofing site.</p>
+      </div>
+      <div class="faq-item">
+        <h3>What information comes with each lead?</h3>
+        <p>Name, phone number, email, address, service type, and any notes the homeowner left about their project. Enough to call and book a quote immediately.</p>
+      </div>
+      <div class="faq-item">
+        <h3>How are leads delivered?</h3>
+        <p>By email in real time as soon as the homeowner submits the form. We can also set up phone forwarding so inbound calls route directly to your business line.</p>
+      </div>
+      <div class="faq-item">
+        <h3>What areas do the leads come from?</h3>
+        <p>Guelph and surrounding Wellington County communities — Fergus, Elora, Rockwood, Erin, Puslinch, and Centre Wellington. These are all within typical service radius for most Guelph-based tradespeople.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Is there a contract or minimum commitment?</h3>
+        <p>No long-term contracts and no minimums. Pay per lead, pause or stop any time. We'd rather earn your continued business by delivering quality leads than lock you into a term.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="contact-wrap">
+    <div class="section-label">Get Started</div>
+    <h2>Check availability for your trade</h2>
+    <p class="section-sub">Tell us your trade and service area. We'll confirm whether the category is open and send you a custom quote within one business day.</p>
+    <div class="form-card">
+      <h3>Request a Lead Quote</h3>
+      <p>We'll follow up by email or phone within 24 hours.</p>
+      <form name="lead-quote" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+        <input type="hidden" name="form-name" value="lead-quote">
+        <p style="display:none"><input name="bot-field"></p>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="fname">Your Name *</label>
+            <input type="text" id="fname" name="name" required placeholder="John Smith">
+          </div>
+          <div class="form-group">
+            <label for="fbiz">Business Name *</label>
+            <input type="text" id="fbiz" name="business" required placeholder="Smith Roofing Inc.">
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="femail">Email *</label>
+            <input type="email" id="femail" name="email" required placeholder="you@yourbusiness.com">
+          </div>
+          <div class="form-group">
+            <label for="fphone">Phone *</label>
+            <input type="tel" id="fphone" name="phone" required placeholder="519-555-0100">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="ftrade">Trade Category *</label>
+          <select id="ftrade" name="trade" required>
+            <option value="">Select your trade…</option>
+            <option>Mold Removal</option>
+            <option>Hydrovac Excavation</option>
+            <option>Moving</option>
+            <option>Commercial Cleaning</option>
+            <option>Interlocking &amp; Hardscaping</option>
+            <option>Roofing</option>
+            <option>HVAC &amp; Air Conditioning</option>
+            <option>Junk Removal</option>
+            <option>Basement Waterproofing</option>
+            <option>Electrical</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="farea">Your Service Area</label>
+          <input type="text" id="farea" name="service_area" placeholder="e.g. Guelph, Fergus, Elora, Wellington County">
+        </div>
+        <div class="form-group">
+          <label for="fmsg">Anything else you'd like us to know?</label>
+          <textarea id="fmsg" name="message" placeholder="How many leads per month are you looking for? Current lead sources? Any questions?"></textarea>
+        </div>
+        <button type="submit" class="form-submit">Request My Quote →</button>
+        <p class="form-note">No spam. No setup fees. We'll confirm availability and send a custom quote.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-links">
+    <a href="/terms">Terms</a>
+    <a href="/privacy">Privacy</a>
+    <a href="mailto:ads@vrume.com">ads@vrume.com</a>
+  </div>
+  <p>© 2026 WeProvideLeads · Guelph Home Service Leads · <a href="mailto:ads@vrume.com">ads@vrume.com</a></p>
+</footer>
+
+</body>
+</html>
