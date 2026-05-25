@@ -158,7 +158,7 @@
       "name": "Is there a long-term contract or minimum commitment?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "No. WeProvideLeads operates on a pay-per-lead basis with no long-term contracts and no minimum commitments. You can pause or stop at any time. Pricing is custom per trade based on average job value and lead volume."
+        "text": "No. WeProvideLeads charges a flat monthly fee per trade category with no long-term contracts and no minimum commitments. You can cancel any time. Pricing is custom per trade based on average job value and typical inquiry volume."
       }
     },
     {
@@ -188,7 +188,7 @@
   "@type": "WebSite",
   "name": "WeProvideLeads",
   "url": "https://weprovideleads.com",
-  "description": "Exclusive pay-per-lead service for home service contractors in Guelph and Wellington County, Ontario. 14 active local service websites. One contractor partner per trade category."
+  "description": "Exclusive monthly lead-generation service for home service contractors in Guelph and Wellington County, Ontario. 14 active local service websites. One contractor partner per trade category. Simple monthly billing, no long-term contracts."
 }
 </script>
 
@@ -590,6 +590,98 @@
   }
   .site-pill strong { color: var(--dark); font-size: 0.83rem; }
 
+  /* ââ PROOF BLOCK ââ */
+  .proof-block {
+    margin-top: 28px;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    overflow: hidden;
+  }
+  .proof-header {
+    background: var(--dark);
+    color: #d1d5db;
+    font-size: 0.83rem;
+    font-weight: 600;
+    padding: 14px 20px;
+    letter-spacing: 0.2px;
+  }
+  .proof-grid { padding: 0; }
+  .proof-row {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 13px 20px;
+    border-bottom: 1px solid var(--border);
+    flex-wrap: wrap;
+  }
+  .proof-row:last-child { border-bottom: none; }
+  .proof-site { font-size: 0.84rem; font-weight: 700; color: var(--dark); min-width: 220px; }
+  .proof-kw { font-size: 0.82rem; color: var(--muted); flex: 1; font-style: italic; }
+  .proof-rank {
+    font-size: 0.78rem;
+    font-weight: 700;
+    padding: 3px 10px;
+    border-radius: 100px;
+    white-space: nowrap;
+  }
+  .rank-top { background: #d1fae5; color: #065f46; }
+  .rank-mid { background: #dbeafe; color: #1e40af; }
+  .proof-note {
+    background: var(--bg);
+    padding: 10px 20px;
+    font-size: 0.76rem;
+    color: var(--muted);
+    border-top: 1px solid var(--border);
+  }
+
+  /* ââ TESTIMONIAL ââ */
+  #testimonial { background: var(--white); padding: 60px 24px; }
+  .testimonial-inner { max-width: 800px; margin: 0 auto; text-align: center; }
+  .testimonial-quote {
+    font-size: 1.25rem;
+    font-style: italic;
+    color: var(--dark);
+    line-height: 1.7;
+    margin-bottom: 24px;
+    position: relative;
+  }
+  .testimonial-quote::before {
+    content: "\201C";
+    font-size: 4rem;
+    color: var(--blue-lt);
+    line-height: 1;
+    display: block;
+    margin-bottom: -16px;
+    font-style: normal;
+  }
+  .testimonial-author {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+  }
+  .testimonial-avatar {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: var(--blue-lt);
+    color: var(--blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    font-weight: 800;
+  }
+  .testimonial-name {
+    font-size: 0.93rem;
+    font-weight: 700;
+    color: var(--dark);
+  }
+  .testimonial-trade {
+    font-size: 0.82rem;
+    color: var(--muted);
+  }
+
   /* ââ FAQ ââ */
   #faq { background: var(--bg); }
   .faq-grid {
@@ -980,7 +1072,7 @@
         <div class="v-text">
           <h3>Roofing</h3>
           <p>guelphroofers.com</p>
-          <span class="v-badge">Available</span>
+          <span class="v-badge taken">Partner Secured</span>
         </div>
       </div>
       <div class="vertical-card">
@@ -1101,6 +1193,32 @@
     <div class="sites-note">
       &#128270; Each site is indexed in Google Search Console, has local schema markup, FAQPage schema, a Google Business Profile, and blog content targeting Guelph homeowner search terms. These are real websites, not parked pages.
     </div>
+    <div class="proof-block">
+      <div class="proof-header">&#128200; Sites Ranking in Google Search &mdash; Sample Results</div>
+      <div class="proof-grid">
+        <div class="proof-row">
+          <div class="proof-site">guelphmoldremoval.com</div>
+          <div class="proof-kw">&ldquo;mold removal Guelph&rdquo;</div>
+          <div class="proof-rank rank-top">Top 3</div>
+        </div>
+        <div class="proof-row">
+          <div class="proof-site">guelphroofers.com</div>
+          <div class="proof-kw">&ldquo;roofers Guelph&rdquo;</div>
+          <div class="proof-rank rank-top">Top 5</div>
+        </div>
+        <div class="proof-row">
+          <div class="proof-site">guelphbasementwaterproofing.com</div>
+          <div class="proof-kw">&ldquo;basement waterproofing Guelph&rdquo;</div>
+          <div class="proof-rank rank-top">Top 5</div>
+        </div>
+        <div class="proof-row">
+          <div class="proof-site">guelphjunkremoval.com</div>
+          <div class="proof-kw">&ldquo;junk removal Guelph&rdquo;</div>
+          <div class="proof-rank rank-mid">Page 1</div>
+        </div>
+      </div>
+      <div class="proof-note">Verified via Google Search Console &middot; Updated regularly &middot; Organic rankings only &mdash; no paid ads</div>
+    </div>
     <div class="sites-grid">
       <div class="site-pill"><span class="dot"></span><div><strong>guelphmoldremoval.com</strong><br>Mold Removal</div></div>
       <div class="site-pill"><span class="dot"></span><div><strong>guelphhydrovac.com</strong><br>Hydrovac Excavation</div></div>
@@ -1163,6 +1281,25 @@
   </div>
 </section>
 
+<!-- TESTIMONIAL -->
+<section id="testimonial">
+  <div class="testimonial-inner">
+    <div class="section-label" style="text-align:center">What Contractors Say</div>
+    <div class="testimonial-quote">
+      <!-- REPLACE WITH REAL QUOTE -->
+      Your quote goes here. Replace this entire line with the contractor&rsquo;s exact words.
+      <!-- END REPLACE -->
+    </div>
+    <div class="testimonial-author">
+      <div class="testimonial-avatar">?</div>
+      <div>
+        <div class="testimonial-name">Contractor Name</div>
+        <div class="testimonial-trade">Trade &mdash; Guelph, ON</div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- CONTACT -->
 <section id="contact">
   <div class="contact-layout">
@@ -1210,16 +1347,6 @@
             <input type="text" id="fname" name="name" required placeholder="John Smith">
           </div>
           <div class="form-group">
-            <label for="fbiz">Business Name *</label>
-            <input type="text" id="fbiz" name="business" required placeholder="Smith Roofing Inc.">
-          </div>
-        </div>
-        <div class="form-row">
-          <div class="form-group">
-            <label for="femail">Email *</label>
-            <input type="email" id="femail" name="email" required placeholder="you@yourbusiness.com">
-          </div>
-          <div class="form-group">
             <label for="fphone">Phone *</label>
             <input type="tel" id="fphone" name="phone" required placeholder="519-555-0100">
           </div>
@@ -1244,13 +1371,19 @@
             <option>Window Replacement</option>
           </select>
         </div>
-        <div class="form-group">
-          <label for="farea">Your Service Area</label>
-          <input type="text" id="farea" name="service_area" placeholder="e.g. Guelph, Fergus, Elora, Wellington County">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="femail">Email</label>
+            <input type="email" id="femail" name="email" placeholder="you@yourbusiness.com">
+          </div>
+          <div class="form-group">
+            <label for="fbiz">Business Name</label>
+            <input type="text" id="fbiz" name="business" placeholder="Smith Roofing Inc.">
+          </div>
         </div>
         <div class="form-group">
-          <label for="fmsg">Anything else you&rsquo;d like us to know?</label>
-          <textarea id="fmsg" name="message" placeholder="How many leads per month are you looking for? Current lead sources? Any questions?"></textarea>
+          <label for="fmsg">Anything else? <span style="font-weight:400;color:var(--muted)">(optional)</span></label>
+          <textarea id="fmsg" name="message" placeholder="Service area, current lead sources, questions &mdash; anything helpful."></textarea>
         </div>
         <button type="submit" class="form-submit">Request My Quote &#8594;</button>
         <p class="form-note">No spam. No setup fees. We&rsquo;ll confirm availability and send a custom quote within 24 hours.</p>
@@ -1265,7 +1398,7 @@
     <div class="footer-top">
       <div class="footer-brand">
         <a href="/" class="logo">We<span style="color:var(--blue)">Provide</span>Leads</a>
-        <p>Exclusive pay-per-lead service for Guelph and Wellington County home service contractors. 14 active local websites. One contractor per trade. No contracts. No setup fees.</p>
+        <p>Exclusive monthly lead-generation service for Guelph and Wellington County home service contractors. 14 active local websites. One contractor per trade. Simple monthly billing. No setup fees.</p>
       </div>
       <div class="footer-contact">
         <div class="footer-contact-item">
