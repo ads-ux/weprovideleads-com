@@ -1,0 +1,6 @@
+# Redirect the raw Netlify subdomain to the primary domain
+[[redirects]]
+from = "https://moonlit-croissant-b6587b.netlify.app/*"
+to = "https://weprovideleads.com/:splat"
+status = 301
+force = true
