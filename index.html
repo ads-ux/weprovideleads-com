@@ -563,6 +563,12 @@
     border-color: var(--blue);
     box-shadow: 0 4px 16px rgba(26,86,219,0.1);
   }
+  
+  /* stretched-card-link: make the whole vertical card clickable via its title link */
+  .vertical-card { position: relative; }
+  .vertical-card:has(.v-text h3 a) { cursor: pointer; }
+  .vertical-card .v-text h3 a { text-decoration: none; color: inherit; }
+  .vertical-card .v-text h3 a::after { content: ""; position: absolute; inset: 0; z-index: 1; }
   .v-icon {
     font-size: 1.8rem;
     flex-shrink: 0;
