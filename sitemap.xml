@@ -6,173 +6,168 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://weprovideleads.com/how-it-works.html</loc>
+    <loc>https://weprovideleads.com/how-it-works</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://weprovideleads.com/pricing.html</loc>
+    <loc>https://weprovideleads.com/about</loc>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://weprovideleads.com/about.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://weprovideleads.com/case-study-guelph-dumpster-rental.html</loc>
+    <loc>https://weprovideleads.com/case-study-guelph-dumpster-rental</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://weprovideleads.com/basement-waterproofing-leads-guelph.html</loc>
+    <loc>https://weprovideleads.com/appliance-repair-leads-guelph</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://weprovideleads.com/commercial-cleaning-leads-guelph.html</loc>
+    <loc>https://weprovideleads.com/basement-waterproofing-leads-guelph</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://weprovideleads.com/drywalling-leads-guelph.html</loc>
+    <loc>https://weprovideleads.com/carpet-cleaning-leads-guelph</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://weprovideleads.com/electrical-leads-guelph.html</loc>
+    <loc>https://weprovideleads.com/commercial-cleaning-leads-guelph</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://weprovideleads.com/fencing-leads-guelph.html</loc>
+    <loc>https://weprovideleads.com/deck-building-leads-guelph</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://weprovideleads.com/general-contractor-leads-guelph.html</loc>
+    <loc>https://weprovideleads.com/drywalling-leads-guelph</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://weprovideleads.com/hvac-leads-guelph.html</loc>
+    <loc>https://weprovideleads.com/duct-cleaning-leads-guelph</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://weprovideleads.com/hydrovac-leads-guelph.html</loc>
+    <loc>https://weprovideleads.com/eavestrough-leads-guelph</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://weprovideleads.com/interlocking-leads-guelph.html</loc>
+    <loc>https://weprovideleads.com/electrical-leads-guelph</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://weprovideleads.com/junk-removal-leads-guelph.html</loc>
+    <loc>https://weprovideleads.com/excavation-leads-guelph</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://weprovideleads.com/mold-removal-leads-guelph.html</loc>
+    <loc>https://weprovideleads.com/fencing-leads-guelph</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://weprovideleads.com/moving-leads-guelph.html</loc>
+    <loc>https://weprovideleads.com/foundation-repair-leads-guelph</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://weprovideleads.com/roofing-leads-guelph.html</loc>
+    <loc>https://weprovideleads.com/garage-door-leads-guelph</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://weprovideleads.com/window-replacement-leads-guelph.html</loc>
+    <loc>https://weprovideleads.com/general-contractor-leads-guelph</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://weprovideleads.com/privacy.html</loc>
+    <loc>https://weprovideleads.com/hvac-leads-guelph</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weprovideleads.com/hydrovac-leads-guelph</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weprovideleads.com/interlocking-leads-guelph</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weprovideleads.com/junk-removal-leads-guelph</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weprovideleads.com/lawn-care-leads-guelph</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weprovideleads.com/mold-removal-leads-guelph</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weprovideleads.com/moving-leads-guelph</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weprovideleads.com/pest-control-leads-guelph</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weprovideleads.com/plumbing-leads-guelph</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weprovideleads.com/roofing-leads-guelph</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weprovideleads.com/tree-service-leads-guelph</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weprovideleads.com/water-damage-leads-guelph</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weprovideleads.com/window-cleaning-leads-guelph</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weprovideleads.com/window-replacement-leads-guelph</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weprovideleads.com/privacy</loc>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://weprovideleads.com/terms.html</loc>
+    <loc>https://weprovideleads.com/terms</loc>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
-  </url>
-  <url>
-    <loc>https://weprovideleads.com/tree-service-leads-guelph.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://weprovideleads.com/water-damage-leads-guelph.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://weprovideleads.com/foundation-repair-leads-guelph.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://weprovideleads.com/excavation-leads-guelph.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://weprovideleads.com/duct-cleaning-leads-guelph.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://weprovideleads.com/eavestrough-leads-guelph.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://weprovideleads.com/garage-door-leads-guelph.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://weprovideleads.com/plumbing-leads-guelph.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://weprovideleads.com/pest-control-leads-guelph.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://weprovideleads.com/appliance-repair-leads-guelph.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://weprovideleads.com/deck-building-leads-guelph.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://weprovideleads.com/carpet-cleaning-leads-guelph.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://weprovideleads.com/lawn-care-leads-guelph.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://weprovideleads.com/window-cleaning-leads-guelph.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
   </url>
 </urlset>
