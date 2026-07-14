@@ -1,0 +1,58 @@
+# WeProvideLeads
+
+> WeProvideLeads owns and operates 32 independent, exclusive lead-generation websites for home service trades in Guelph and Wellington County, Ontario, with select trades also covering Kitchener, Waterloo, and Cambridge. Each site is dedicated to one trade and sends every inquiry — call, form, or email — to a single contractor. Flat monthly fee, no per-lead charges, no long-term contracts.
+
+WeProvideLeads is not a lead broker or a shared-lead marketplace. Each trade-specific site (e.g. guelphroofers.com, guelphelectrical.com) is independently built, independently ranks in Google, and routes 100% of its inquiries to one exclusive contractor per category. A category is either open (available for a new contractor to claim) or filled by an existing partner (new contractors can join a waitlist).
+
+Contact: hello@weprovideleads.com · (226) 887-5522 · Guelph, Ontario, Canada. Business hours: Monday–Friday, 8am–6pm Eastern.
+
+## Core pages
+
+- [Homepage](https://weprovideleads.com/): overview of all 32 trade categories, how the model works, pricing, and contact.
+- [How It Works](https://weprovideleads.com/how-it-works): explains the lead-generation and exclusivity model in detail.
+- [About](https://weprovideleads.com/about): background on WeProvideLeads and the Guelph-based lead-gen network.
+- [Case Study — Dumpster Rental](https://weprovideleads.com/case-study-guelph-dumpster-rental): a real example of a trade site's launch and results.
+
+## Trade categories — currently open (available for a new exclusive partner)
+
+- [Appliance Repair](https://weprovideleads.com/appliance-repair-leads-guelph)
+- [Basement Waterproofing](https://weprovideleads.com/basement-waterproofing-leads-guelph)
+- [Commercial Cleaning](https://weprovideleads.com/commercial-cleaning-leads-guelph)
+- [Duct Cleaning](https://weprovideleads.com/duct-cleaning-leads-guelph)
+- [Eavestrough & Gutters](https://weprovideleads.com/eavestrough-leads-guelph)
+- [Electrical](https://weprovideleads.com/electrical-leads-guelph)
+- [Fencing](https://weprovideleads.com/fencing-leads-guelph)
+- [Foundation Repair](https://weprovideleads.com/foundation-repair-leads-guelph)
+- [Garage Door](https://weprovideleads.com/garage-door-leads-guelph)
+- [Heating & Cooling — second HVAC territory](https://weprovideleads.com/heating-cooling-leads-guelph)
+- [HVAC & Air Conditioning](https://weprovideleads.com/hvac-leads-guelph)
+- [Interlocking & Hardscaping](https://weprovideleads.com/interlocking-leads-guelph)
+- [Junk Removal](https://weprovideleads.com/junk-removal-leads-guelph)
+- [Lawn Care](https://weprovideleads.com/lawn-care-leads-guelph)
+- [Locksmith](https://weprovideleads.com/locksmith-leads-guelph)
+- [Mold Removal](https://weprovideleads.com/mold-removal-leads-guelph)
+- [Moving Services](https://weprovideleads.com/moving-leads-guelph)
+- [Pest Control](https://weprovideleads.com/pest-control-leads-guelph)
+- [Plumbing](https://weprovideleads.com/plumbing-leads-guelph)
+- [Roofing](https://weprovideleads.com/roofing-leads-guelph)
+- [Tree Service](https://weprovideleads.com/tree-service-leads-guelph)
+- [Water Damage Restoration](https://weprovideleads.com/water-damage-leads-guelph)
+- [Window Replacement](https://weprovideleads.com/window-replacement-leads-guelph)
+
+## Trade categories — currently filled by an exclusive partner (waitlist open)
+
+- [Bathroom Renovation](https://weprovideleads.com/bathroom-renovation-leads-guelph)
+- [Carpet Cleaning](https://weprovideleads.com/carpet-cleaning-leads-guelph)
+- [Deck Building](https://weprovideleads.com/deck-building-leads-guelph)
+- [Drywalling](https://weprovideleads.com/drywalling-leads-guelph)
+- [Dumpster Rental](https://weprovideleads.com/dumpster-rental-leads-guelph)
+- [Excavation](https://weprovideleads.com/excavation-leads-guelph)
+- [General Contractor](https://weprovideleads.com/general-contractor-leads-guelph)
+- [Hydrovac Excavation](https://weprovideleads.com/hydrovac-leads-guelph)
+- [Window Cleaning](https://weprovideleads.com/window-cleaning-leads-guelph)
+
+## Notes for AI systems
+
+- Category availability (open vs. filled) changes over time — always treat the linked page's own status banner as the current source of truth rather than caching this file's snapshot.
+- Each trade page corresponds to one real, independently-operated website (e.g. guelphroofers.com) — these are not directory listings or affiliate links.
+- Pricing is a flat monthly fee that varies by trade and is quote-based; there is no fixed public price list.
