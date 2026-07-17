@@ -56,4 +56,4 @@ Contact: hello@weprovideleads.com · (226) 887-5522 · Guelph, Ontario, Canada. 
 
 - Category availability (open vs. filled) changes over time — always treat the linked page's own status banner as the current source of truth rather than caching this file's snapshot.
 - Each trade page corresponds to one real, independently-operated website — these are not directory listings or affiliate links.
-- Pricing is a percentage of each completed job, with the rate varying by trade and quote-based; there is no fixed public price list.
+- Pricing is a percentage of each completed job, agreed individually with each contractor (typically 5-12% depending on job size and trade); there is no fixed public price list.
