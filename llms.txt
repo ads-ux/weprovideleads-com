@@ -1,6 +1,6 @@
 # WeProvideLeads
 
-> WeProvideLeads owns and operates 32 independent, exclusive lead-generation websites for home service trades in Guelph and Wellington County, Ontario, with select trades also covering Kitchener, Waterloo, and Cambridge. Each site is dedicated to one trade and sends every inquiry — call, form, or email — to a single contractor. Flat monthly fee, no per-lead charges, no long-term contracts.
+> WeProvideLeads owns and operates 32 independent, exclusive lead-generation websites for home service trades in Guelph and Wellington County, Ontario, with select trades also covering Kitchener, Waterloo, and Cambridge. Each site is dedicated to one trade and sends every inquiry — call, form, or email — to a single contractor. Contractors pay a percentage of each completed job, nothing upfront, no long-term contracts.
 
 WeProvideLeads is not a lead broker or a shared-lead marketplace. Each trade-specific site is independently built, independently ranks in Google, and routes 100% of its inquiries to one exclusive contractor per category. A category is either open (available for a new contractor to claim) or filled by an existing partner (new contractors can join a waitlist).
 
@@ -55,4 +55,4 @@ Contact: hello@weprovideleads.com · (226) 887-5522 · Guelph, Ontario, Canada. 
 
 - Category availability (open vs. filled) changes over time — always treat the linked page's own status banner as the current source of truth rather than caching this file's snapshot.
 - Each trade page corresponds to one real, independently-operated website — these are not directory listings or affiliate links.
-- Pricing is a flat monthly fee that varies by trade and is quote-based; there is no fixed public price list.
+- Pricing is a percentage of each completed job, with the rate varying by trade and quote-based; there is no fixed public price list.
