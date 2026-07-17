@@ -1,6 +1,6 @@
 # WeProvideLeads
 
-> WeProvideLeads owns and operates 32 independent, exclusive lead-generation websites for home service trades in Guelph and Wellington County, Ontario, with select trades also covering Kitchener, Waterloo, and Cambridge. Each site is dedicated to one trade and sends every inquiry — call, form, or email — to a single contractor. Contractors pay a percentage of each completed job, nothing upfront, no long-term contracts.
+> WeProvideLeads owns and operates 33 independent, exclusive lead-generation websites for home service trades in Guelph and Wellington County, Ontario, with select trades also covering Kitchener, Waterloo, and Cambridge. Each site is dedicated to one trade and sends every inquiry — call, form, or email — to a single contractor. Contractors pay a percentage of each completed job, nothing upfront, no long-term contracts.
 
 WeProvideLeads is not a lead broker or a shared-lead marketplace. Each trade-specific site is independently built, independently ranks in Google, and routes 100% of its inquiries to one exclusive contractor per category. A category is either open (available for a new contractor to claim) or filled by an existing partner (new contractors can join a waitlist).
 
@@ -8,7 +8,7 @@ Contact: hello@weprovideleads.com · (226) 887-5522 · Guelph, Ontario, Canada. 
 
 ## Core pages
 
-- [Homepage](https://weprovideleads.com/): overview of all 32 trade categories, how the model works, pricing, and contact.
+- [Homepage](https://weprovideleads.com/): overview of all 33 trade categories, how the model works, pricing, and contact.
 - [How It Works](https://weprovideleads.com/how-it-works): explains the lead-generation and exclusivity model in detail.
 - [About](https://weprovideleads.com/about): background on WeProvideLeads and the Guelph-based lead-gen network.
 - [Case Study — Dumpster Rental](https://weprovideleads.com/case-study-guelph-dumpster-rental): a real example of a trade site's launch and results.
@@ -43,6 +43,7 @@ Contact: hello@weprovideleads.com · (226) 887-5522 · Guelph, Ontario, Canada. 
 - [Carpet Cleaning](https://weprovideleads.com/carpet-cleaning-leads-guelph)
 - [Deck Building](https://weprovideleads.com/deck-building-leads-guelph)
 - [Drywalling](https://weprovideleads.com/drywalling-leads-guelph)
+- [Driveway Sealing](https://weprovideleads.com/driveway-sealing-leads-guelph)
 - [Dumpster Rental](https://weprovideleads.com/dumpster-rental-leads-guelph)
 - [Excavation](https://weprovideleads.com/excavation-leads-guelph)
 - [General Contractor](https://weprovideleads.com/general-contractor-leads-guelph)
