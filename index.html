@@ -956,6 +956,17 @@
     .hero-stats { padding-top: 32px; }
   }
 
+  /* MOBILE HEADER + HERO SIMPLIFICATION */
+  @media (max-width: 680px) {
+    .topbar { padding: 7px 16px; gap: 6px; }
+    .topbar-tagline, .topbar-sep-2, .topbar-email { display: none; }
+    .hero { padding: 36px 20px 32px; }
+    .hero-badge { font-size: 0.68rem; padding: 5px 14px; margin-bottom: 16px; }
+    .hero h1 { font-size: 1.7rem; margin-bottom: 12px; }
+    .hero p { font-size: 0.94rem; margin-bottom: 24px; }
+    .hero-btns { margin-bottom: 32px; }
+  }
+
   /* CASE STUDY PREVIEW */
   .case-preview { border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; background: var(--white); }
   .case-preview-inner { display: grid; grid-template-columns: 1.3fr 1fr; }
@@ -976,11 +987,11 @@
 
 <!-- TOPBAR -->
 <div class="topbar">
-  <span>Guelph, Waterloo, Cambridge, Kitchener &amp; Beyond &mdash; Home Service Leads</span>
+  <span class="topbar-tagline">Guelph, Waterloo, Cambridge, Kitchener &amp; Beyond &mdash; Home Service Leads</span>
   <span class="topbar-sep">|</span>
   <a href="tel:+12268875522">&#128222; (226) 887-5522</a>
-  <span class="topbar-sep">|</span>
-  <a href="mailto:hello@weprovideleads.com">hello@weprovideleads.com</a>
+  <span class="topbar-sep topbar-sep-2">|</span>
+  <a href="mailto:hello@weprovideleads.com" class="topbar-email">hello@weprovideleads.com</a>
 </div>
 
 <!-- NAV -->
@@ -993,7 +1004,7 @@
     </div>
     <div class="nav-right">
       <a href="tel:+12268875522" class="nav-phone">&#128222; (226) 887-5522</a>
-      <a href="#contact" class="nav-cta">Get a Quote</a>
+      <a href="#contact" class="nav-cta">Check Availability</a>
     </div>
   </div>
 </nav>
@@ -1005,7 +1016,7 @@
   <h1>Exclusive Contractor Leads.<br><em>We Run the Sites. You Get the Business.</em></h1>
   <p>We own and run local lead-gen websites for home service trades in Guelph, Waterloo, Kitchener and Cambridge. When someone finds one of our sites and reaches out, you get the call, email, or inquiry &mdash; and only you. We allow one contractor per trade, and you pay a percentage of each completed job, cancel any time.</p>
   <div class="hero-btns">
-    <a href="#contact" class="btn-primary">Get a Quote &#8594;</a>
+    <a href="#contact" class="btn-primary">Check Availability &#8594;</a>
     <a href="tel:+12268875522" class="btn-outline">&#128222; Call (226) 887-5522</a>
   </div>
   <div class="hero-stats">
