@@ -214,6 +214,16 @@
     .hero { padding: 44px 20px 40px; }
   }
 
+  /* MOBILE HEADER + HERO SIMPLIFICATION */
+  @media (max-width: 680px) {
+    .topbar { padding: 7px 16px; gap: 6px; }
+    .topbar-tagline, .topbar-sep-2, .topbar-email { display: none; }
+    .hero { padding: 32px 20px 28px; }
+    .hero-badge { font-size: 0.66rem; padding: 5px 12px; margin-bottom: 14px; }
+    .hero h1 { font-size: 1.55rem; margin-bottom: 12px; }
+    .hero p { font-size: 0.92rem; margin-bottom: 22px; }
+  }
+
   /* ── SECTIONS ── */
   section { padding: 72px 24px; }
   .section-inner { max-width: 1100px; margin: 0 auto; }
@@ -400,11 +410,11 @@
 <!-- Google tag (gtag.js) --><script async src="https://www.googletagmanager.com/gtag/js?id=G-QE1ZJ7LBLY"></script><script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-QE1ZJ7LBLY');</script></head>
 <body>
 <div class="topbar">
-  <span>Guelph, Waterloo, Cambridge, Kitchener &amp; Beyond &mdash; Home Service Leads</span>
+  <span class="topbar-tagline">Guelph, Waterloo, Cambridge, Kitchener &amp; Beyond &mdash; Home Service Leads</span>
   <span class="topbar-sep">|</span>
   <a href="tel:+12268875522">&#128222; (226) 887-5522</a>
-  <span class="topbar-sep">|</span>
-  <a href="mailto:hello@weprovideleads.com">hello@weprovideleads.com</a>
+  <span class="topbar-sep topbar-sep-2">|</span>
+  <a href="mailto:hello@weprovideleads.com" class="topbar-email">hello@weprovideleads.com</a>
 </div>
 <nav>
   <div class="nav-inner">
@@ -415,7 +425,7 @@
     </div>
     <div class="nav-right">
       <a href="tel:+12268875522" class="nav-phone">&#128222; (226) 887-5522</a>
-      <a href="/#contact" class="nav-cta">Get a Quote</a>
+      <a href="/#contact" class="nav-cta">Check Availability</a>
     </div>
   </div>
 </nav>
