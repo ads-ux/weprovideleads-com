@@ -129,6 +129,10 @@
   .nav-phone:hover { color: var(--blue); }
   @media (max-width: 560px) { .nav-phone { display: none; } }
   .nav-right { display: flex; align-items: center; gap: 16px; }
+  .nav-links { display: flex; align-items: center; gap: 22px; }
+  .nav-links a { font-size: 0.9rem; font-weight: 600; color: var(--mid); text-decoration: none; white-space: nowrap; }
+  .nav-links a:hover { color: var(--blue); }
+  @media (max-width: 760px) { .nav-links { display: none; } }
   .nav-cta {
     background: var(--blue);
     color: var(--white);
@@ -782,14 +786,15 @@
 </div>
 <nav>
   <div class="nav-inner">
-    <a href="/" class="logo">We<span style="color:var(--blue)">Provide</span>Leads</a>
+    <a href="/" class="logo">We<span>Provide</span>Leads</a>
     <div class="nav-links">
-      <a href="/how-it-works.html">How It Works</a>
-      <a href="/pricing.html">Pricing</a>
-      <a href="/about.html">About</a>
+      <a href="/how-it-works">How It Works</a>
       <a href="/blog/">Blog</a>
+      <a href="/about">About</a>
+    </div>
+    <div class="nav-right">
       <a href="tel:+12268875522" class="nav-phone">&#128222; (226) 887-5522</a>
-      <a href="/#contact" class="nav-cta">Get a Quote</a>
+      <a href="/#contact" class="nav-cta">Check Availability</a>
     </div>
   </div>
 </nav>
