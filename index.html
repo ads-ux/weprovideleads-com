@@ -955,6 +955,21 @@
     .trust-bar-inner { gap: 16px; }
     .hero-stats { padding-top: 32px; }
   }
+
+  /* CASE STUDY PREVIEW */
+  .case-preview { border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; background: var(--white); }
+  .case-preview-inner { display: grid; grid-template-columns: 1.3fr 1fr; }
+  @media (max-width: 760px) { .case-preview-inner { grid-template-columns: 1fr; } }
+  .case-preview-main { padding: 44px 44px; }
+  @media (max-width: 540px) { .case-preview-main { padding: 32px 26px; } }
+  .case-preview-label { font-size: 0.78rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px; color: var(--blue); margin-bottom: 14px; }
+  .case-preview-main h3 { font-size: 1.55rem; font-weight: 800; color: var(--dark); line-height: 1.25; letter-spacing: -0.4px; margin-bottom: 14px; }
+  .case-preview-main p { font-size: 0.98rem; color: var(--muted); line-height: 1.7; margin-bottom: 26px; max-width: 480px; }
+  .case-preview-cta { display: inline-block; background: var(--blue); color: #fff; padding: 13px 26px; border-radius: 8px; font-weight: 700; text-decoration: none; font-size: 0.92rem; transition: background 0.2s; }
+  .case-preview-cta:hover { background: var(--blue-dk); }
+  .case-preview-stats { background: var(--blue-lt); padding: 36px 32px; display: flex; flex-direction: column; justify-content: center; gap: 22px; }
+  .case-preview-stat-num { font-size: 1.7rem; font-weight: 800; color: var(--blue-dk); line-height: 1; }
+  .case-preview-stat-label { font-size: 0.82rem; color: var(--mid); font-weight: 600; margin-top: 4px; line-height: 1.4; }
 </style>
 </head>
 <body>
@@ -1364,6 +1379,36 @@
         </div>
       </div>
       <div class="proof-note">Real organic rankings &mdash; no paid ads</div>
+    </div>
+  </div>
+</section>
+
+<!-- PARTNER CASE STUDY PREVIEW -->
+<section id="case-study-preview" style="background:var(--bg);">
+  <div class="section-inner">
+    <div class="case-preview">
+      <div class="case-preview-inner">
+        <div class="case-preview-main">
+          <div class="case-preview-label">Partner Result</div>
+          <h3>From Zero Visibility to Approximately 30 Bookings a Month</h3>
+          <p>GuelphDumpsterRental.com went from having no dedicated website or meaningful Google visibility to ranking first for &ldquo;Guelph dumpster rental&rdquo; and generating approximately one booking per day.</p>
+          <a href="/case-study-guelph-dumpster-rental" class="case-preview-cta">Read the Case Study &#8594;</a>
+        </div>
+        <div class="case-preview-stats">
+          <div>
+            <div class="case-preview-stat-num">#1</div>
+            <div class="case-preview-stat-label">Google position for &ldquo;Guelph dumpster rental&rdquo;</div>
+          </div>
+          <div>
+            <div class="case-preview-stat-num">~30</div>
+            <div class="case-preview-stat-label">Monthly bookings</div>
+          </div>
+          <div>
+            <div class="case-preview-stat-num">Growing</div>
+            <div class="case-preview-stat-label">Week over week</div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </section>
