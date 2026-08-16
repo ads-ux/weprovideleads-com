@@ -182,6 +182,8 @@
     letter-spacing: -0.5px;
     white-space: nowrap;
   }
+  .logo{display:inline-flex;align-items:center;gap:8px}
+  .logo-mark{flex-shrink:0}
   .logo span { color: var(--blue); }
   .nav-phone {
     font-size: 0.88rem;
@@ -789,6 +791,7 @@
     flex-wrap: wrap;
   }
   .footer-brand .logo { color: var(--white); font-size: 1.1rem; display: inline-block; margin-bottom: 8px; }
+  .footer-brand .logo{display:inline-flex;align-items:center;gap:8px}
   .footer-brand p { font-size: 0.85rem; color: #6b7280; max-width: 300px; line-height: 1.6; }
   .footer-contact { text-align: right; }
   @media (max-width: 600px) { .footer-contact { text-align: left; } }
@@ -877,7 +880,7 @@
 </div>
 <nav>
   <div class="nav-inner">
-    <a href="/" class="logo">We<span>Provide</span>Leads</a>
+    <a href="/" class="logo"><svg class="logo-mark" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" fill="#1a56db"/><circle cx="12" cy="9" r="2.6" fill="#fff"/></svg>We<span>Provide</span>Leads</a>
     <div class="nav-links">
       <a href="/how-it-works">How It Works</a>
       <a href="/pricing">Pricing</a>
@@ -895,7 +898,7 @@
 <section class="page-hero">
   <h1>Bathroom Renovation Leads in Guelph &amp; Wellington County</h1>
   <p>Exclusive bathroom renovation leads from a website we own and run. One contractor gets every lead &mdash; no bidding wars.</p>
-  <div class="status-banner status-taken">&#10007; Category Currently Partnered &mdash; Join the Waitlist</div>
+  <div class="status-banner status-open">&#10003; Category Available &mdash; One Contractor Only</div>
 </section>
 
 <section style="padding:56px 24px;">
@@ -921,7 +924,7 @@
     <p>Guelph&rsquo;s older housing stock and steady renovation activity in Fergus, Elora, Rockwood, and Cambridge keep demand consistent. Full remodels routinely run $10,000&ndash;$25,000+, so a single booked job can cover months of the flat lead fee.</p>
 
     <h2>Exclusivity &amp; how it works</h2>
-    <p>We work with <strong>one bathroom renovation contractor</strong> for Guelph and Wellington County. This category is currently filled &mdash; every call, voicemail, form submission, and email from our site goes to that partner exclusively.</p>
+    <p>We work with <strong>one bathroom renovation contractor</strong> for Guelph and Wellington County. Every call, voicemail, form submission, and email from our site goes to that contractor exclusively.</p>
 
     <h2>Pricing</h2>
     <p>You pay <strong>a small percentage of the completed job</strong> &mdash; nothing upfront, no monthly fee, no per-lead charge. We work with a small number of vetted, exclusive contractors and agree the exact rate individually with each one. When the bathroom renovation job you were sent closes, you pay that rate on the final invoice; if it doesn&rsquo;t close, you owe nothing. No setup fees, no long-term contracts, cancel any time. Request a quote to confirm availability and discuss your rate. See the <a href="/pricing">pricing page</a> for how the model works.</p>
@@ -958,8 +961,8 @@
   <div class="contact-layout">
     <div class="contact-info">
       <div class="section-label">Get Started</div>
-      <h2>Join the Bathroom Renovation waitlist</h2>
-      <p class="section-sub">This category is currently filled by one exclusive partner. Tell us your business and service area and we&rsquo;ll reach out if a slot opens.</p>
+      <h2>Claim the Bathroom Renovation category</h2>
+      <p class="section-sub">Tell us your business and service area. We&rsquo;ll confirm availability and send a custom quote within one business day.</p>
       <div class="contact-channels">
         <div class="contact-channel">
           <div class="channel-icon">&#128222;</div>
@@ -1035,6 +1038,9 @@
             <option>Water Damage Restoration</option>
             <option>Window Cleaning</option>
             <option>Window Replacement</option>
+            <option>Drywalling (Orangeville)</option>
+            <option>General Contractor (Orangeville)</option>
+            <option>Home Renovation (Orangeville)</option>
             <option value="Other">Other &mdash; trade not listed</option>
           </select>
         </div>
@@ -1063,8 +1069,8 @@
   <div class="footer-inner">
     <div class="footer-top">
       <div class="footer-brand">
-        <a href="/" class="logo">We<span style="color:var(--blue)">Provide</span>Leads</a>
-        <p>Exclusive lead-generation service for home service contractors across Guelph, Wellington County, and Southwestern Ontario. 40 active local websites. One contractor per trade. You pay a percentage of the completed job &mdash; nothing upfront, no monthly fee. No setup fees.</p>
+        <a href="/" class="logo"><svg class="logo-mark" width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" fill="#1a56db"/><circle cx="12" cy="9" r="2.6" fill="#fff"/></svg>We<span style="color:var(--blue)">Provide</span>Leads</a>
+        <p>Exclusive lead-generation service for home service contractors across Guelph, Wellington County, Southwestern Ontario, and Orangeville. 42 active local websites. One contractor per trade. You pay a percentage of the completed job &mdash; nothing upfront, no monthly fee. No setup fees.</p>
       </div>
       <div class="footer-contact">
         <div class="footer-contact-item">&#128222; <a href="tel:+12268875522">(226) 887-5522</a></div>

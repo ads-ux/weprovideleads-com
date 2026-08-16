@@ -4,3 +4,238 @@ from = "https://moonlit-croissant-b6587b.netlify.app/*"
 to = "https://weprovideleads.com/:splat"
 status = 301
 force = true
+
+# Trade page URL cleanup (removed city-specific slugs)
+[[redirects]]
+from = "/appliance-repair-leads-guelph"
+to = "/appliance-repair-leads"
+status = 301
+force = true
+
+[[redirects]]
+from = "/basement-waterproofing-leads-guelph"
+to = "/basement-waterproofing-leads"
+status = 301
+force = true
+
+[[redirects]]
+from = "/bathroom-renovation-leads-guelph"
+to = "/bathroom-renovation-leads"
+status = 301
+force = true
+
+[[redirects]]
+from = "/carpet-cleaning-leads-guelph"
+to = "/carpet-cleaning-leads"
+status = 301
+force = true
+
+[[redirects]]
+from = "/commercial-cleaning-leads-guelph"
+to = "/commercial-cleaning-leads"
+status = 301
+force = true
+
+[[redirects]]
+from = "/deck-building-leads-guelph"
+to = "/deck-building-leads"
+status = 301
+force = true
+
+[[redirects]]
+from = "/driveway-sealing-leads-guelph"
+to = "/driveway-sealing-leads"
+status = 301
+force = true
+
+[[redirects]]
+from = "/drywalling-leads-guelph"
+to = "/drywalling-leads"
+status = 301
+force = true
+
+[[redirects]]
+from = "/duct-cleaning-leads-guelph"
+to = "/duct-cleaning-leads"
+status = 301
+force = true
+
+[[redirects]]
+from = "/dumpster-rental-leads-guelph"
+to = "/dumpster-rental-leads"
+status = 301
+force = true
+
+[[redirects]]
+from = "/eavestrough-leads-guelph"
+to = "/eavestrough-leads"
+status = 301
+force = true
+
+[[redirects]]
+from = "/electrical-leads-guelph"
+to = "/electrical-leads"
+status = 301
+force = true
+
+[[redirects]]
+from = "/epoxy-flooring-leads-kwc"
+to = "/epoxy-flooring-leads"
+status = 301
+force = true
+
+[[redirects]]
+from = "/excavation-leads-guelph"
+to = "/excavation-leads"
+status = 301
+force = true
+
+[[redirects]]
+from = "/fencing-leads-guelph"
+to = "/fencing-leads"
+status = 301
+force = true
+
+[[redirects]]
+from = "/foundation-repair-leads-guelph"
+to = "/foundation-repair-leads"
+status = 301
+force = true
+
+[[redirects]]
+from = "/garage-door-leads-guelph"
+to = "/garage-door-leads"
+status = 301
+force = true
+
+[[redirects]]
+from = "/general-contractor-leads-guelph"
+to = "/general-contractor-leads"
+status = 301
+force = true
+
+[[redirects]]
+from = "/home-renovation-leads-orangeville"
+to = "/home-renovation-leads"
+status = 301
+force = true
+
+[[redirects]]
+from = "/hvac-leads-guelph"
+to = "/hvac-leads"
+status = 301
+force = true
+
+[[redirects]]
+from = "/hydrovac-leads-guelph"
+to = "/hydrovac-leads"
+status = 301
+force = true
+
+[[redirects]]
+from = "/interlock-cleaning-leads-kwc"
+to = "/interlock-cleaning-leads"
+status = 301
+force = true
+
+[[redirects]]
+from = "/interlocking-leads-guelph"
+to = "/interlocking-leads"
+status = 301
+force = true
+
+[[redirects]]
+from = "/junk-removal-leads-guelph"
+to = "/junk-removal-leads"
+status = 301
+force = true
+
+[[redirects]]
+from = "/lawn-care-leads-guelph"
+to = "/lawn-care-leads"
+status = 301
+force = true
+
+[[redirects]]
+from = "/locksmith-leads-guelph"
+to = "/locksmith-leads"
+status = 301
+force = true
+
+[[redirects]]
+from = "/metal-fabrication-leads-hamilton"
+to = "/metal-fabrication-leads"
+status = 301
+force = true
+
+[[redirects]]
+from = "/mold-removal-leads-guelph"
+to = "/mold-removal-leads"
+status = 301
+force = true
+
+[[redirects]]
+from = "/moving-leads-guelph"
+to = "/moving-leads"
+status = 301
+force = true
+
+[[redirects]]
+from = "/pest-control-leads-guelph"
+to = "/pest-control-leads"
+status = 301
+force = true
+
+[[redirects]]
+from = "/plumbing-leads-guelph"
+to = "/plumbing-leads"
+status = 301
+force = true
+
+[[redirects]]
+from = "/power-washing-leads-kwc"
+to = "/power-washing-leads"
+status = 301
+force = true
+
+[[redirects]]
+from = "/roof-gutter-cleaning-leads-kwc"
+to = "/roof-gutter-cleaning-leads"
+status = 301
+force = true
+
+[[redirects]]
+from = "/roofing-leads-guelph"
+to = "/roofing-leads"
+status = 301
+force = true
+
+[[redirects]]
+from = "/soft-washing-leads-guelph-kwc"
+to = "/soft-washing-leads"
+status = 301
+force = true
+
+[[redirects]]
+from = "/tree-service-leads-guelph"
+to = "/tree-service-leads"
+status = 301
+force = true
+
+[[redirects]]
+from = "/water-damage-leads-guelph"
+to = "/water-damage-leads"
+status = 301
+force = true
+
+[[redirects]]
+from = "/window-cleaning-leads-guelph"
+to = "/window-cleaning-leads"
+status = 301
+force = true
+
+[[redirects]]
+from = "/window-replacement-leads-guelph"
+to = "/window-replacement-leads"
+status = 301
+force = true
