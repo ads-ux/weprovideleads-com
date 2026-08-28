@@ -1185,7 +1185,7 @@
         <h3>Shared Plan</h3>
         <div class="plan-price">10% of completed jobs</div>
         <ul>
-          <li>Default starting plan, no application needed</li>
+          <li>Default starting plan &mdash; submit the availability form and we'll follow up to set up billing</li>
           <li>Nothing upfront, nothing owed if a lead doesn&rsquo;t close</li>
           <li>Leads rotate among a small, vetted pool for your trade and area</li>
           <li>You won&rsquo;t receive every lead</li>
@@ -1754,12 +1754,14 @@
         </div>
         <div class="form-row">
           <div class="form-group">
-            <label for="femail">Email</label>
-            <input type="email" id="femail" name="email" placeholder="you@yourbusiness.com" autocomplete="email">
+            <label for="femail">Email *</label>
+            <input type="email" id="femail" name="email" required placeholder="you@yourbusiness.com" autocomplete="email" aria-describedby="femail-error">
+            <span class="form-error" id="femail-error">Please enter your email.</span>
           </div>
           <div class="form-group">
-            <label for="fbiz">Business Name</label>
-            <input type="text" id="fbiz" name="business" placeholder="Smith Roofing Inc." autocomplete="organization">
+            <label for="fbiz">Business Name *</label>
+            <input type="text" id="fbiz" name="business" required placeholder="Smith Roofing Inc." autocomplete="organization" aria-describedby="fbiz-error">
+            <span class="form-error" id="fbiz-error">Please enter your business name.</span>
           </div>
         </div>
         <div class="form-group">
