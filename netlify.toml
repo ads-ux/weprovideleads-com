@@ -251,3 +251,9 @@ from = "/thank-you-confirmation"
 to = "/pricing"
 status = 301
 force = true
+
+[[redirects]]
+from = "/sign-up"
+to = "/contractor-application"
+status = 301
+force = true
