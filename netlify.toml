@@ -239,3 +239,15 @@ from = "/window-replacement-leads-guelph"
 to = "/window-replacement-leads"
 status = 301
 force = true
+
+[[redirects]]
+from = "/confirm-jobs"
+to = "/pricing"
+status = 301
+force = true
+
+[[redirects]]
+from = "/thank-you-confirmation"
+to = "/pricing"
+status = 301
+force = true
