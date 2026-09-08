@@ -64,7 +64,7 @@
       "name": "Are excavation leads shared with other companies?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes. Your first 5 leads are free, and after that every lead in this category goes to you exclusively for a flat monthly fee &mdash; see the <a href="/pricing">pricing page</a>."
+        "text": "Yes. Your first 5 leads are free, and after that every lead in this category goes to you exclusively for a flat monthly fee &mdash; see the <a href='/pricing'>pricing page</a>."
       }
     },
     {
@@ -828,7 +828,8 @@
   @media (max-width:760px){ .nav-links { display:none; } }
   .placeholder { background:#fef9c3; border:1px dashed #ca8a04; border-radius:6px; padding:2px 8px; font-size:0.92em; color:#854d0e; font-weight:600; }
 </style>
-<!-- Google tag (gtag.js) --><script async src="https://www.googletagmanager.com/gtag/js?id=G-QE1ZJ7LBLY"></script><script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-QE1ZJ7LBLY');</script></head>
+<!-- Google tag (gtag.js) --><script async src="https://www.googletagmanager.com/gtag/js?id=G-QE1ZJ7LBLY"></script><script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-QE1ZJ7LBLY');</script><style>.satellite-card { background:var(--blue-lt); border:1px solid #bfdbfe; border-radius:10px; padding:22px 24px; margin:24px 0; }.satellite-card .lbl { font-size:0.74rem; font-weight:700; text-transform:uppercase; letter-spacing:1px; color:var(--blue); margin-bottom:6px; }.satellite-card a { font-size:1.15rem; font-weight:800; color:var(--blue-dk); text-decoration:none; }.satellite-card a:hover { text-decoration:underline; }.satellite-card p { font-size:0.9rem; color:var(--mid); margin:8px 0 0; line-height:1.6; }</style>
+</head>
 <body>
 <div class="topbar">
   <span>Guelph &amp; Wellington County Home Service Leads</span>
@@ -877,6 +878,12 @@
     <h2>Pricing</h2>
     <p>Your first 5 leads are free &mdash; no cost, no obligation, so you can see the quality before you commit. After that it&rsquo;s <strong>$500/month flat</strong>, exclusive to you: no per-lead charge, no percentage of the job, no long-term contract, cancel any time. See the <a href="/pricing">pricing page</a> for the full breakdown by trade.</p>
       <div style="margin-top:18px"><a href="https://square.link/u/4bLD1CU6" target="_blank" rel="noopener" class="btn-primary" style="display:inline-block">Go Exclusive Now &mdash; Auto-Renews Monthly</a></div>
+
+    <div class="satellite-card">
+      <div class="lbl">The Site Generating These Leads</div>
+      <a href="https://kitchenerexcavation.ca" target="_blank" rel="noopener">kitchenerexcavation.ca &#8599;</a>
+      <p>A real local website we built and own &mdash; its own content, local schema and tracked phone line. Every enquiry it produces goes to one contractor.</p>
+    </div>
   </div>
 </section>
 
@@ -947,11 +954,17 @@
           <label for="ftrade">Trade Category *</label>
           <select id="ftrade" name="trade" required>
             <option value="">Select your trade&hellip;</option>
+            <option>Air Conditioning</option>
+            <option>Appliance Installation</option>
             <option>Appliance Repair</option>
+            <option>Auto Repair</option>
+            <option>Basement Renovation</option>
             <option>Basement Waterproofing</option>
             <option>Bathroom Renovation</option>
             <option>Carpet Cleaning</option>
             <option>Commercial Cleaning</option>
+            <option>Concrete</option>
+            <option>Custom &amp; Luxury Home Building</option>
             <option>Deck Building</option>
             <option>Driveway Sealing</option>
             <option>Drywalling</option>
@@ -962,30 +975,41 @@
             <option>Epoxy Flooring</option>
             <option>Excavation</option>
             <option>Fencing</option>
+            <option>Fire Alarm</option>
             <option>Foundation Repair</option>
+            <option>Furnace Installation</option>
             <option>Garage Door</option>
+            <option>Gas Appliance Installation</option>
+            <option>Gas Fitting</option>
             <option>General Contractor</option>
+            <option>Handyman</option>
+            <option>Heating &amp; Cooling</option>
+            <option>House Cleaning</option>
             <option>House &amp; Siding Soft Washing</option>
             <option>HVAC &amp; Air Conditioning</option>
             <option>Hydrovac Excavation</option>
+            <option>Insulation</option>
             <option>Interlock Cleaning &amp; Polymeric Sand</option>
             <option>Interlocking &amp; Hardscaping</option>
             <option>Junk Removal</option>
+            <option>Kitchen Renovation</option>
             <option>Lawn Care</option>
             <option>Locksmith</option>
             <option>Metal Fabrication</option>
             <option>Mold Removal</option>
             <option>Moving</option>
+            <option>Painting</option>
             <option>Pest Control</option>
             <option>Plumbing</option>
             <option>Power Washing</option>
             <option>Roof &amp; Gutter Cleaning</option>
             <option>Roofing</option>
+            <option>Siding</option>
+            <option>Snow Removal</option>
             <option>Tree Service</option>
             <option>Water Damage Restoration</option>
             <option>Window Cleaning</option>
             <option>Window Replacement</option>
-            <option>Home Renovation</option>
             <option value="Other">Other &mdash; trade not listed</option>
           </select>
         </div>
@@ -1015,7 +1039,7 @@
     <div class="footer-top">
       <div class="footer-brand">
         <a href="/" class="logo"><svg class="logo-mark" width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" fill="#1a56db"/><circle cx="12" cy="9" r="2.6" fill="#fff"/></svg>We<span style="color:var(--blue)">Provide</span>Leads</a>
-        <p>Exclusive lead-generation service for home service contractors across Guelph, Wellington County, Southwestern Ontario, and Orangeville. 42 active local websites. First 5 leads free, then a flat monthly fee tiered by trade &mdash; exclusive, no percentage, no contracts. See <a href="/pricing" style="color:var(--blue)">full pricing</a>. No setup fees.</p>
+        <p>Exclusive lead-generation service for home service contractors across Guelph, Wellington County, Southwestern Ontario, and Orangeville. 103 active local websites. First 5 leads free, then a flat monthly fee tiered by trade &mdash; exclusive, no percentage, no contracts. See <a href="/pricing" style="color:var(--blue)">full pricing</a>. No setup fees.</p>
       </div>
       <div class="footer-contact">
         <div class="footer-contact-item">&#128222; <a href="tel:+12268875522">(226) 887-5522</a></div>
