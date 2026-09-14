@@ -9,6 +9,7 @@
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://weprovideleads.com/pricing">
 <link rel="icon" href="/favicon.ico" sizes="48x48">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
 <link rel="apple-touch-icon" href="/favicon.png">
 <script type="application/ld+json">
@@ -117,7 +118,9 @@
     align-items: center;
     gap: 8px;
   }
-  .logo span { color: var(--blue); }
+  .logo { color: #041e45; gap: 0; }
+  .logo span { color: inherit; }
+  .logo-mark { margin-right: 9px; }
   .logo-mark { flex-shrink: 0; }
   .nav-phone {
     font-size: 0.88rem;
@@ -691,7 +694,7 @@
     margin-bottom: 32px;
     flex-wrap: wrap;
   }
-  .footer-brand .logo { color: var(--white); font-size: 1.1rem; display: inline-flex; align-items: center; gap: 8px; margin-bottom: 8px; }
+  .footer-brand .logo { color: var(--white); font-size: 1.1rem; display: inline-flex; align-items: center; gap: 0; margin-bottom: 8px; }
   .footer-brand p { font-size: 0.85rem; color: #6b7280; max-width: 300px; line-height: 1.6; }
   .footer-contact { text-align: right; }
   @media (max-width: 600px) { .footer-contact { text-align: left; } }
@@ -870,7 +873,7 @@
 <!-- NAV -->
 <nav>
   <div class="nav-inner">
-    <a href="/" class="logo"><svg class="logo-mark" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" fill="#1a56db"/><circle cx="12" cy="9" r="2.6" fill="#fff"/></svg>We<span>Provide</span>Leads</a>
+    <a href="/" class="logo"><img class="logo-mark" src="/logo-mark.svg" width="41" height="28" alt="" aria-hidden="true">We<span>Provide</span>Leads</a>
     <div class="nav-links">
       <a href="/how-it-works">How It Works</a>
       <a href="/pricing">Pricing</a>
@@ -924,7 +927,7 @@
   <div class="footer-inner">
     <div class="footer-top">
       <div class="footer-brand">
-        <a href="/" class="logo"><svg class="logo-mark" width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" fill="#1a56db"/><circle cx="12" cy="9" r="2.6" fill="#fff"/></svg>We<span style="color:var(--blue)">Provide</span>Leads</a>
+        <a href="/" class="logo"><img class="logo-mark" src="/logo-mark.svg" width="38" height="26" alt="" aria-hidden="true">We<span>Provide</span>Leads</a>
         <p>Local trade websites across Guelph, Waterloo, Cambridge, Kitchener, and other Ontario communities. First 5 leads free, no cost, no obligation. Then a flat monthly fee, exclusive to you, tiered by trade. Need a website instead? See <a href="https://overhauled.ai/" target="_blank" rel="noopener" style="color:var(--blue)">Overhauled.ai</a>.</p>
       </div>
       <div class="footer-contact">
@@ -951,7 +954,7 @@
         <a href="/privacy">Privacy Policy</a>
         <a href="mailto:hello@weprovideleads.com">Contact</a>
       </div>
-      <p>&copy; 2026 WeProvideLeads &middot; Guelph, Ontario</p>
+      <p>&copy; 2026 WeProvideLeads &middot; Operated by Messley Inc. &middot; 5 Edinburgh Rd S, Unit 21, Guelph, ON N1H 5N8</p>
     </div>
   </div>
 </footer>
