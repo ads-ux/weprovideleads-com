@@ -1084,21 +1084,59 @@
         </div>
         <div class="form-row">
           <div class="form-group">
-            <label for="femail">Email</label>
-            <input type="email" id="femail" name="email" placeholder="you@yourbusiness.com">
+            <label for="femail">Email *</label>
+            <input type="email" id="femail" name="email" required autocomplete="email" placeholder="you@yourbusiness.com">
           </div>
           <div class="form-group">
             <label for="fbiz">Business Name</label>
             <input type="text" id="fbiz" name="business" placeholder="Smith Roofing Inc.">
           </div>
         </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="fweb">Website <span style="font-weight:400;color:var(--muted)">(if you have one)</span></label>
+            <input type="text" id="fweb" name="website" inputmode="url" autocomplete="url" placeholder="yourbusiness.com">
+          </div>
+          <div class="form-group">
+            <label for="fcountry">Country *</label>
+            <select id="fcountry" name="country" required>
+              <option value="">Select&hellip;</option>
+              <option>Canada</option>
+              <option>United States</option>
+              <option value="Other country">Other country</option>
+            </select>
+          </div>
+        </div>
+        <p id="fgeo-note" role="status" hidden style="margin:-6px 0 19px;padding:12px 14px;border-radius:8px;background:#fff4e5;border:1px solid #f5c27a;color:#7a4b00;font-size:.9rem;line-height:1.45">Heads up &mdash; right now we only generate leads for contractors in Ontario, Canada. You&rsquo;re welcome to send this and we&rsquo;ll keep you on file for when we open your area, but we can&rsquo;t take you on today.</p>
+        <div class="form-group">
+          <label for="fareas">Service Areas *</label>
+          <input type="text" id="fareas" name="service_areas" required placeholder="e.g. Guelph, Kitchener, Cambridge">
+        </div>
+        <input type="hidden" name="location_check" id="flocation-check" value="">
         <div class="form-group">
           <label for="fmsg">Anything else? <span style="font-weight:400;color:var(--muted)">(optional)</span></label>
-          <textarea id="fmsg" name="message" placeholder="Service area, current lead sources, questions &mdash; anything helpful."></textarea>
+          <textarea id="fmsg" name="message" placeholder="Current lead sources, questions &mdash; anything helpful."></textarea>
         </div>
         <button type="submit" class="form-submit">Request My Quote &#8594;</button>
         <p class="form-note">No spam. No setup fees. We&rsquo;ll confirm availability and send a custom quote within 24 hours.</p>
       </form>
+<script>
+(function () {
+  var f = document.querySelector('form[name="lead-quote"]'); if (!f) return;
+  var CA = " 204 226 236 249 250 257 263 289 306 343 354 365 367 368 382 403 416 418 428 431 437 438 450 468 474 506 514 519 548 579 581 584 587 604 613 639 647 672 683 705 709 742 753 778 780 782 807 819 825 867 873 879 902 905 ";
+  var c = f.querySelector('#fcountry'), note = f.querySelector('#fgeo-note'), ph = f.querySelector('#fphone'), flag = f.querySelector('#flocation-check');
+  if (!c || !ph || !flag) return;
+  function update() {
+    var d = (ph.value || '').replace(/\D/g, ''); if (d.length === 11 && d.charAt(0) === '1') d = d.slice(1);
+    var a = d.length === 10 ? d.slice(0, 3) : '', issues = [];
+    if (c.value && c.value !== 'Canada') issues.push('business based in ' + c.value);
+    if (a && CA.indexOf(' ' + a + ' ') < 0) issues.push('phone area code ' + a + ' is not Canadian');
+    if (note) note.hidden = !(c.value && c.value !== 'Canada');
+    flag.value = issues.length ? 'OUTSIDE CANADA? ' + issues.join('; ') : (c.value === 'Canada' ? 'Canada' : '');
+  }
+  c.addEventListener('change', update); ph.addEventListener('input', update); f.addEventListener('submit', update);
+})();
+</script>
     </div>
   </div>
 </section>
