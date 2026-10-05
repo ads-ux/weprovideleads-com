@@ -856,15 +856,15 @@
   <div class="nav-inner">
     <a href="/" class="logo"><img class="logo-mark" src="/logo-mark.svg" width="41" height="28" alt="" aria-hidden="true">We<span>Provide</span>Leads</a>
     <div class="nav-links">
-      <a href="/how-it-works">How It Works</a>
+      <a href="/how-it-works">Rent a Website</a>
+      <a href="/build-your-own-lead-site">Own a Website</a>
       <a href="/pricing">Pricing</a>
-      <a href="/build-your-own-lead-site">Build &amp; Own</a>
       <a href="/case-study-guelph-dumpster-rental">Results</a>
       <a href="/about">About</a>
     </div>
     <div class="nav-right">
       <a href="tel:+12268875522" class="nav-phone">&#128222; (226) 887-5522</a>
-      <a href="#apply" class="nav-cta">Get 5 Free Leads</a>
+      <a href="#apply" class="nav-cta">Get Started</a>
     </div>
   </div>
 </nav>
@@ -872,14 +872,15 @@
 
 <!-- HERO -->
 <section class="hero">
-  <div class="hero-badge">Contractor Sign Up</div>
-  <h1>Your first 5 leads are free.</h1>
-  <p>No cost, no obligation &mdash; see the quality before you commit to anything. After that, exclusive rights to your trade and territory cost one flat monthly fee, tiered by trade.</p>
+  <div class="hero-badge">Rent a Website &middot; Sign Up</div>
+  <h1>Rent a website. Your first 5 leads are free.</h1>
+  <p>No cost, no obligation &mdash; see the quality before you commit to anything. After that, the calls and inquiries from our website for your trade and territory cost one flat monthly fee, tiered by trade. We own the website. You keep the business.</p>
   <div class="hero-btns">
     <a href="#apply" class="btn-primary">Sign Up Below &#8594;</a>
     <a href="tel:+12268875522" class="btn-outline">&#128222; Call (226) 887-5522</a>
   </div>
   <p class="hero-reassure">Most trades are open. A few are already exclusive to another contractor &mdash; if yours is, we'll tell you within one business day and offer the waitlist instead.</p>
+  <p class="hero-reassure">Want to own a website instead? One upfront price, no ongoing payments to us &mdash; <a href="/build-your-own-lead-site" style="color:inherit;font-weight:700;text-decoration:underline">see how owning works</a>.</p>
 </section>
 
 <div class="trust-bar">
@@ -995,14 +996,15 @@
         </div>
 
         <div class="form-group">
-          <label for="aplan">Which plan? *</label>
+          <label for="aplan">Which service? *</label>
           <select id="aplan" name="plan" required aria-describedby="aplan-error">
-            <option value="">Select a plan&hellip;</option>
-            <option value="Free trial - 5 leads">Free trial &mdash; first 5 leads, no cost</option>
-            <option value="Exclusive - flat monthly">Exclusive &mdash; flat monthly fee (after free leads)</option>
+            <option value="">Select a service&hellip;</option>
+            <option value="Free trial - 5 leads">Rent a website &mdash; start with 5 free leads</option>
+            <option value="Exclusive - flat monthly">Rent a website &mdash; flat monthly fee (after free leads)</option>
+            <option value="Own a website - pay once">Own a website &mdash; one upfront price</option>
             <option value="Not sure yet">Not sure yet</option>
           </select>
-          <span class="form-error" id="aplan-error">Please select a plan.</span>
+          <span class="form-error" id="aplan-error">Please select a service.</span>
         </div>
 
         <div class="form-group">
@@ -1040,7 +1042,7 @@
         </div>
 
         <button type="submit" class="form-submit">Submit Application &#8594;</button>
-        <p class="form-note">We'll confirm setup and follow up once your first 5 free leads are used, to get exclusive billing set up. Questions? Call (226) 887-5522 or email hello@weprovideleads.com.</p>
+        <p class="form-note">Renting: we'll confirm setup and follow up once your first 5 free leads are used, to get monthly billing set up. Owning: we'll confirm what's open and quote the one-time price before you owe anything. Questions? Call (226) 887-5522 or email hello@weprovideleads.com.</p>
       </form>
     </div>
   </div>
@@ -1053,7 +1055,7 @@
     <div class="footer-top">
       <div class="footer-brand">
         <a href="/" class="logo"><img class="logo-mark" src="/logo-mark.svg" width="38" height="26" alt="" aria-hidden="true">We<span>Provide</span>Leads</a>
-        <p>Local trade websites across Guelph, Waterloo, Cambridge, Kitchener, and other Ontario communities. Your first 5 leads are free, then a flat monthly fee, exclusive to you, tiered by trade. Need a website instead? See <a href="https://overhauled.ai/" target="_blank" rel="noopener" style="color:var(--blue)">Overhauled.ai</a>.</p>
+        <p>Websites that bring contractors more business across Guelph, Waterloo, Cambridge, Kitchener and other Ontario communities. <strong>Rent</strong> one of our lead-generating websites for a flat monthly fee (first 5 leads free), or <strong>own</strong> one &mdash; pay once and we build a website that&rsquo;s yours. See <a href="/pricing" style="color:var(--blue)">how pricing works</a>.</p>
       </div>
       <div class="footer-contact">
         <div class="footer-contact-item">
@@ -1069,9 +1071,9 @@
     </div>
     <div class="footer-bottom">
       <div class="footer-links">
-        <a href="/how-it-works">How It Works</a>
+        <a href="/how-it-works">Rent a Website</a>
+        <a href="/build-your-own-lead-site">Own a Website</a>
         <a href="/pricing">Pricing</a>
-        <a href="/build-your-own-lead-site">Build &amp; Own</a>
         <a href="/case-study-guelph-dumpster-rental">Results</a>
         <a href="/about">About</a>
         <a href="/blog/">Blog</a>
@@ -1084,6 +1086,16 @@
     </div>
   </div>
 </footer>
-
+<script>
+(function () {
+  try {
+    var v = new URLSearchParams(window.location.search).get("service");
+    var sel = document.getElementById("aplan");
+    if (!sel || !v) return;
+    if (v === "own") sel.value = "Own a website - pay once";
+    else if (v === "rent") sel.value = "Free trial - 5 leads";
+  } catch (e) {}
+})();
+</script>
 </body>
 </html>

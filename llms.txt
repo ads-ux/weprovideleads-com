@@ -2,6 +2,10 @@
 
 > WeProvideLeads owns and operates 142 independent, exclusive lead-generation websites across 55 home service trades in Guelph and Wellington County, Kitchener, Waterloo, Cambridge, Orangeville and other Ontario markets. Each site is dedicated to one trade and sends every inquiry — call, form, or email — to a single contractor. New contractors get their first 5 leads free, then pay a flat monthly fee, exclusive to them, no long-term contracts.
 
+Two services:
+1. Rent a website (pay monthly): WeProvideLeads owns the website; calls and inquiries from it go directly to the contractor for a flat monthly fee. First 5 leads free. The contractor keeps the business.
+2. Own a website (pay once): WeProvideLeads builds a website for the contractor for one upfront price. The contractor owns it and receives every call, lead and inquiry it generates. No ongoing payments to WeProvideLeads; third-party running costs such as domain renewal, hosting and the phone line are separate. The free-lead trial does not apply to this option.
+
 WeProvideLeads is not a lead broker or a shared-lead marketplace. Each trade-specific site is independently built, independently ranks in Google, and routes 100% of its inquiries to one exclusive contractor per category. A category is either open (available for a new contractor to claim) or filled by an existing partner (new contractors can join a waitlist).
 
 Contact: hello@weprovideleads.com · (226) 887-5522 · Guelph, Ontario, Canada. Business hours: Monday–Friday, 8am–6pm Eastern.
@@ -9,7 +13,9 @@ Contact: hello@weprovideleads.com · (226) 887-5522 · Guelph, Ontario, Canada. 
 ## Core pages
 
 - [Homepage](https://weprovideleads.com/): overview of all 55 trade categories, how the model works, pricing, and contact.
-- [How It Works](https://weprovideleads.com/how-it-works): explains the lead-generation and exclusivity model in detail.
+- [Rent a Website](https://weprovideleads.com/how-it-works): how renting one of our lead-generating websites works (pay monthly).
+- [Own a Website](https://weprovideleads.com/build-your-own-lead-site): how the one-time build works (pay once, you own the website).
+- [Pricing](https://weprovideleads.com/pricing): how rental and ownership pricing work; prices are quoted, not published.
 - [About](https://weprovideleads.com/about): background on WeProvideLeads and the Guelph-based lead-gen network.
 - [Case Study — Dumpster Rental](https://weprovideleads.com/case-study-guelph-dumpster-rental): a real example of a trade site's launch and results.
 
@@ -56,4 +62,4 @@ Contact: hello@weprovideleads.com · (226) 887-5522 · Guelph, Ontario, Canada. 
 
 - Category availability (open vs. filled) changes over time — always treat the linked page's own status banner as the current source of truth rather than caching this file's snapshot.
 - Each trade page corresponds to one real, independently-operated website — these are not directory listings or affiliate links.
-- Pricing is a flat monthly fee, quoted per trade and city on request — rates are not published. The first 5 leads for any new contractor are free, with no setup fee and no long-term contract.
+- Renting is a flat monthly fee; owning is one upfront price. Both are quoted per trade and city on request — rates are not published. The first 5 leads for any new contractor are free, with no setup fee and no long-term contract.
