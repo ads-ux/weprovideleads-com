@@ -53,7 +53,7 @@
   "telephone": "+12268875522",
   "email": "hello@weprovideleads.com",
   "description": "WeProvideLeads runs a network of local lead-generation websites for contractors and service businesses in Guelph and Wellington County, Ontario, with select trades also covering Kitchener, Waterloo, Cambridge, Hamilton, Niagara Falls, New Hamburg, Stratford, London, and Orangeville. Businesses can receive exclusive inquiries from one of these websites for a flat monthly fee (first 5 leads free, no long-term contract), or pay an upfront price for a website built for their trade and area that they own.",
-  "priceRange": "Exclusive leads: first 5 leads free, then a flat monthly fee quoted by trade and area. Website ownership: $1,500 for one website, $1,250 each for 3, or $1,000 each for 5 (CAD, plus HST).",
+  "priceRange": "Exclusive leads: first 5 leads free, then a flat monthly fee from $200 a month (CAD, plus HST). Website ownership: $1,500 for one website, $1,250 each for 3, or $1,000 each for 5 (CAD, plus HST).",
   "openingHoursSpecification": {
     "@type": "OpeningHoursSpecification",
     "dayOfWeek": [
@@ -176,7 +176,7 @@
       "name": "What happens after the 5 free leads?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "We quote the flat monthly fee for your trade and area in writing. You’re only billed if you confirm you want to continue. There’s no long-term contract: you can cancel any time, and the current month isn’t refunded."
+        "text": "We confirm your flat monthly fee in writing. It starts at $200 a month, plus HST, depending on your trade and area. You’re only billed if you confirm you want to continue. There’s no long-term contract: you can cancel any time, and the current month isn’t refunded."
       }
     },
     {
@@ -1181,7 +1181,7 @@
     </div>
     <div class="nav-right">
       <a href="tel:+12268875522" class="nav-phone">&#128222; (226) 887-5522</a>
-      <a href="#availability" class="nav-cta">Check My Trade &amp; Area</a>
+      <a href="#availability" class="nav-cta">Get 5 Free Leads</a>
     </div>
   </div>
 </nav>
@@ -1193,7 +1193,7 @@
   <h1>More local customer inquiries for your service business.</h1>
   <p>Receive exclusive inquiries from one of our local websites for a flat monthly fee, or have us build a website you own.</p>
   <div class="hero-btns">
-    <a href="#availability" class="btn-primary">Check My Trade &amp; Area &#8594;</a>
+    <a href="#contact" class="btn-primary" data-service="rent">Get My 5 Free Leads &#8594;</a>
     <a href="#options" class="btn-outline">Compare the Two Options</a>
   </div>
   <p class="hero-reassure">Prefer to talk? Call <a href="tel:+12268875522" style="color:inherit;font-weight:700">(226) 887-5522</a>. We&rsquo;ll confirm what&rsquo;s available for your trade and area within one business day.</p>
@@ -1314,13 +1314,13 @@
         <dl class="cmp">
           <div><dt>Who owns the website</dt><dd>We do. We build, host and run it.</dd></div>
           <div><dt>Where inquiries go</dt><dd>That website&rsquo;s calls and form inquiries go to your business.</dd></div>
-          <div><dt>What you pay</dt><dd>A flat monthly fee, quoted for your trade and area. No setup fee.</dd></div>
+          <div><dt>What you pay</dt><dd>From $200 a month, plus HST, depending on your trade and area. No setup fee.</dd></div>
           <div><dt>How it starts</dt><dd>Your first 5 leads are free.</dd></div>
           <div><dt>Exclusivity</dt><dd>Included. It covers the website you rent, not every website in your area.</dd></div>
           <div><dt>Commitment</dt><dd>No long-term contract. Cancel any time.</dd></div>
         </dl>
         <div class="option-btns">
-          <a href="#availability" class="option-btn" data-service="rent">Check My Trade &amp; Area &#8594;</a>
+          <a href="#availability" class="option-btn" data-service="rent">Get My 5 Free Leads &#8594;</a>
           <a href="/how-it-works" class="option-link">How exclusive leads work</a>
         </div>
       </div>
@@ -1337,7 +1337,7 @@
           <div><dt>Commitment</dt><dd>No ongoing payments to us. You pay your own domain renewal and any hosting or phone costs directly to those providers.</dd></div>
         </dl>
         <div class="option-btns">
-          <a href="#availability" class="option-btn" data-service="own">Check My Trade &amp; Area &#8594;</a>
+          <a href="#availability" class="option-btn" data-service="own">Start My Website &#8594;</a>
           <a href="/build-your-own-lead-site" class="option-link">How owning works</a>
         </div>
       </div>
@@ -1378,7 +1378,7 @@
       </div>
       <div class="faq-item">
         <h3>What happens after the 5 free leads?</h3>
-        <p>We quote the flat monthly fee for your trade and area in writing. You&rsquo;re only billed if you confirm you want to continue. There&rsquo;s no long-term contract: you can cancel any time, and the current month isn&rsquo;t refunded.</p>
+        <p>We confirm your flat monthly fee in writing. It starts at $200 a month, plus HST, depending on your trade and area. You&rsquo;re only billed if you confirm you want to continue. There&rsquo;s no long-term contract: you can cancel any time, and the current month isn&rsquo;t refunded.</p>
       </div>
       <div class="faq-item">
         <h3>What does owning a website cost?</h3>
@@ -1431,19 +1431,20 @@
     </div>
 
     <div class="form-card">
-      <h3>Check My Trade &amp; Area</h3>
+      <h3>Get Started</h3>
       <p>We&rsquo;ll follow up by email or phone within one business day.</p>
       <form name="lead-quote" id="lead-quote-form" method="POST" action="/thank-you" data-netlify="true" netlify-honeypot="bot-field" novalidate>
         <input type="hidden" name="form-name" value="lead-quote">
         <p style="display:none"><input name="bot-field"></p>
         <fieldset class="service-choice">
-          <legend>Which option interests you? *</legend>
-          <label class="service-opt" for="fsvc-rent"><input type="radio" id="fsvc-rent" name="service" value="Rent a website (pay monthly)" required aria-describedby="fsvc-rent-error"> <span><strong>Get exclusive leads</strong> &mdash; flat monthly fee. First 5 leads free.</span></label>
+          <legend>Which option interests you?</legend>
+          <label class="service-opt" for="fsvc-rent"><input type="radio" id="fsvc-rent" name="service" value="Rent a website (pay monthly)" aria-describedby="fsvc-rent-error"> <span><strong>Get exclusive leads</strong> &mdash; flat monthly fee. First 5 leads free.</span></label>
           <label class="service-opt" for="fsvc-own"><input type="radio" id="fsvc-own" name="service" value="Own a website (pay once)"> <span><strong>Own your website</strong> &mdash; upfront build price. We build it, then transfer it to you.</span></label>
           <label class="service-opt" for="fsvc-unsure"><input type="radio" id="fsvc-unsure" name="service" value="Not sure yet"> <span><strong>Help me choose</strong> &mdash; talk me through both.</span></label>
           <span class="form-error" id="fsvc-rent-error">Please choose an option.</span>
         </fieldset>
-        <div class="form-group">
+        <div class="form-row">
+          <div class="form-group">
           <label for="ftrade">Trade *</label>
           <select id="ftrade" name="trade" required aria-describedby="ftrade-error">
             <option value="">Select your trade&hellip;</option>
@@ -1506,21 +1507,10 @@
           </select>
           <span class="form-error" id="ftrade-error">Please select your trade.</span>
         </div>
-        <div class="form-row">
           <div class="form-group">
-            <label for="fcountry">Country *</label>
-            <select id="fcountry" name="country" required aria-describedby="fcountry-error">
-              <option value="">Select&hellip;</option>
-              <option>Canada</option>
-              <option>United States</option>
-              <option value="Other country">Other country</option>
-            </select>
-            <span class="form-error" id="fcountry-error">Please tell us where you&rsquo;re based.</span>
-          </div>
-          <div class="form-group">
-            <label for="fareas">Service Area *</label>
-            <input type="text" id="fareas" name="service_areas" required placeholder="e.g. Guelph, Kitchener, Cambridge" aria-describedby="fareas-error">
-            <span class="form-error" id="fareas-error">Please tell us the area you serve.</span>
+            <label for="fareas">Your Town or City *</label>
+            <input type="text" id="fareas" name="service_areas" required placeholder="e.g. Guelph" aria-describedby="fareas-error">
+            <span class="form-error" id="fareas-error">Please tell us your town or city.</span>
           </div>
         </div>
         <div class="form-row">
@@ -1537,13 +1527,13 @@
         </div>
         <div class="form-row">
           <div class="form-group">
-            <label for="femail">Email *</label>
-            <input type="email" id="femail" name="email" required placeholder="you@yourbusiness.com" autocomplete="email" aria-describedby="femail-error">
-            <span class="form-error" id="femail-error">Please enter your email.</span>
+            <label for="femail">Email <span style="font-weight:400;color:var(--muted)">(optional)</span></label>
+            <input type="email" id="femail" name="email" placeholder="you@yourbusiness.com" autocomplete="email" aria-describedby="femail-error">
+            <span class="form-error" id="femail-error">Please check your email address.</span>
           </div>
           <div class="form-group">
-            <label for="fbiz">Business Name *</label>
-            <input type="text" id="fbiz" name="business" required placeholder="Smith Roofing Inc." autocomplete="organization" aria-describedby="fbiz-error">
+            <label for="fbiz">Business Name <span style="font-weight:400;color:var(--muted)">(optional)</span></label>
+            <input type="text" id="fbiz" name="business" placeholder="Smith Roofing Inc." autocomplete="organization" aria-describedby="fbiz-error">
             <span class="form-error" id="fbiz-error">Please enter your business name.</span>
           </div>
         </div>
@@ -1556,7 +1546,7 @@
           <label for="fmsg">Anything else? <span style="font-weight:400;color:var(--muted)">(optional)</span></label>
           <textarea id="fmsg" name="message" placeholder="Current lead sources, questions &mdash; anything helpful."></textarea>
         </div>
-        <button type="submit" class="form-submit">Check My Trade &amp; Area &#8594;</button>
+        <button type="submit" class="form-submit">Send My Request &#8594;</button>
         <p class="form-note">Exclusive leads start with 5 free leads. No spam &mdash; we&rsquo;ll only use your information to confirm availability and discuss the option you picked.</p>
       </form>
 <script>
@@ -1564,16 +1554,16 @@
   var f = document.querySelector('form[name="lead-quote"]'); if (!f) return;
   var CA = " 204 226 236 249 250 257 263 289 306 343 354 365 367 368 382 403 416 418 428 431 437 438 450 468 474 506 514 519 548 579 581 584 587 604 613 639 647 672 683 705 709 742 753 778 780 782 807 819 825 867 873 879 902 905 ";
   var c = f.querySelector('#fcountry'), note = f.querySelector('#fgeo-note'), ph = f.querySelector('#fphone'), flag = f.querySelector('#flocation-check');
-  if (!c || !ph || !flag) return;
+  if (!ph || !flag) return;
   function update() {
     var d = (ph.value || '').replace(/\D/g, ''); if (d.length === 11 && d.charAt(0) === '1') d = d.slice(1);
     var a = d.length === 10 ? d.slice(0, 3) : '', issues = [];
-    if (c.value && c.value !== 'Canada') issues.push('business based in ' + c.value);
+    if (c && c.value && c.value !== 'Canada') issues.push('business based in ' + c.value);
     if (a && CA.indexOf(' ' + a + ' ') < 0) issues.push('phone area code ' + a + ' is not Canadian');
-    if (note) note.hidden = !(c.value && c.value !== 'Canada');
-    flag.value = issues.length ? 'Outside Canada: ' + issues.join('; ') : (c.value === 'Canada' ? 'Canada' : '');
+    
+    flag.value = issues.length ? 'Outside Canada: ' + issues.join('; ') : '';
   }
-  c.addEventListener('change', update); ph.addEventListener('input', update); f.addEventListener('submit', update);
+  if (c) c.addEventListener('change', update); ph.addEventListener('input', update); f.addEventListener('submit', update);
 })();
 </script>
     </div>
