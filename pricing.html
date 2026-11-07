@@ -18,28 +18,56 @@
   "@type": "Service",
   "name": "WeProvideLeads Contractor Leads",
   "provider": {
-    "@type": "LocalBusiness",
-    "name": "WeProvideLeads"
+    "@type": "Organization",
+    "name": "WeProvideLeads",
+    "url": "https://weprovideleads.com"
   },
-  "areaServed": "Guelph, Waterloo, Cambridge, Kitchener, Hamilton, Ontario",
+  "areaServed": {
+    "@type": "Country",
+    "name": "Canada"
+  },
   "offers": [
     {
       "@type": "Offer",
-      "name": "Exclusive leads: free trial — first 5 leads",
-      "price": "0",
+      "name": "Exclusive leads: first 5 leads free",
+      "price": 0,
       "priceCurrency": "CAD",
-      "description": "Your first 5 leads, free — no cost, no obligation."
+      "url": "https://weprovideleads.com/how-it-works"
     },
     {
       "@type": "Offer",
-      "name": "Exclusive leads: flat monthly fee",
-      "availability": "https://schema.org/InStock",
-      "description": "Rent a website: flat monthly fee for exclusive use of one website’s leads, from $200 a month (CAD, plus HST). No per-lead charge and no percentage of the job."
+      "name": "Exclusive leads (rent a website)",
+      "description": "Every call and form inquiry from one of our websites, sent to your business only. First 5 leads free, then a flat monthly fee from $200 a month, depending on trade and area. No setup fee, no per-lead charge, no contract.",
+      "priceCurrency": "CAD",
+      "priceSpecification": {
+        "@type": "UnitPriceSpecification",
+        "minPrice": 200,
+        "priceCurrency": "CAD",
+        "unitText": "MONTH",
+        "valueAddedTaxIncluded": false
+      },
+      "url": "https://weprovideleads.com/how-it-works"
     },
     {
       "@type": "Offer",
-      "name": "Own your website",
-      "description": "We build a local lead-generation website for the contractor's trade and city, which the contractor owns, for one upfront price: $1,500 for one website, $1,250 each for 3, or $1,000 each for 5 (CAD, plus HST). No ongoing payments to WeProvideLeads. After handover it runs on the contractor's own accounts: domain renewal through their registrar, hosting usually on a free plan, calls to their own business number."
+      "name": "Own your website: 1 website",
+      "price": 1500,
+      "priceCurrency": "CAD",
+      "url": "https://weprovideleads.com/build-your-own-lead-site"
+    },
+    {
+      "@type": "Offer",
+      "name": "Own your website: 3 websites ($1,250 each)",
+      "price": 3750,
+      "priceCurrency": "CAD",
+      "url": "https://weprovideleads.com/build-your-own-lead-site"
+    },
+    {
+      "@type": "Offer",
+      "name": "Own your website: 5 websites ($1,000 each)",
+      "price": 5000,
+      "priceCurrency": "CAD",
+      "url": "https://weprovideleads.com/build-your-own-lead-site"
     }
   ]
 }
