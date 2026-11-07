@@ -521,6 +521,15 @@
 
   /* VERTICALS */
   #verticals { background: var(--white); }
+  .tr-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px; margin: 8px 0 18px; }
+  .tr-group { background: var(--bg); border: 1px solid var(--border); border-radius: 12px; padding: 16px 18px; }
+  .tr-group h3 { font-size: 0.82rem; text-transform: uppercase; letter-spacing: 0.6px; color: var(--blue); margin: 0 0 10px; }
+  .tr-group ul { list-style: none; margin: 0; padding: 0; }
+  .tr-group li { font-size: 0.9rem; color: var(--dark); padding: 3px 0 3px 16px; position: relative; }
+  .tr-group li::before { content: ""; position: absolute; left: 0; top: 11px; width: 6px; height: 6px; border-radius: 50%; background: var(--blue); }
+  .tr-more { font-size: 0.95rem; color: var(--mid); margin: 0 0 18px; }
+  @media (max-width: 900px) { .tr-grid { grid-template-columns: 1fr 1fr; } }
+  @media (max-width: 520px) { .tr-grid { grid-template-columns: 1fr; } }
   .verticals-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
@@ -1151,8 +1160,10 @@
   .mini-quote { max-width: 760px; margin: 28px auto 0; text-align: center; }
   .mini-quote blockquote { font-size: 1.1rem; font-style: italic; color: var(--dark); margin: 0 0 6px; }
   .mini-quote figcaption { font-size: 0.88rem; color: var(--muted); }
-  .mini-quotes { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; max-width: 900px; margin: 28px auto 0; }
+  .mini-quotes { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 28px; max-width: 1040px; margin: 28px auto 0; }
   .mini-quotes .mini-quote { margin: 0; }
+  .mini-quote figcaption a { color: var(--blue); font-weight: 600; text-decoration: none; }
+  .mini-quote figcaption a:hover { text-decoration: underline; }
   .case-preview-main h2 { font-size: 1.55rem; font-weight: 800; color: var(--dark); line-height: 1.25; letter-spacing: -0.4px; margin-bottom: 14px; }
   @media (max-width: 560px) { .nav-cta { white-space: normal; max-width: 128px; text-align: center; line-height: 1.15; padding: 7px 10px; font-size: 0.78rem; } }
 </style>
@@ -1289,6 +1300,10 @@
     </div>
     <div class="mini-quotes">
       <figure class="mini-quote">
+        <blockquote>&ldquo;The Christmas lights leads started coming in almost instantly, and they&rsquo;ve been quality enquiries from people actually looking to book. It&rsquo;s made a real difference in filling our schedule.&rdquo;</blockquote>
+        <figcaption>Jake Daoust, <a href="https://jdhomesolutions.ca" target="_blank" rel="noopener">JD Home Solutions</a>, Barrie, ON</figcaption>
+      </figure>
+      <figure class="mini-quote">
         <blockquote>&ldquo;WPL, you&rsquo;ve made my life a living HELL&hellip; I&rsquo;m way too busy!&rdquo;</blockquote>
         <figcaption>Andrew, Drywall Contractor, Guelph, ON</figcaption>
       </figure>
@@ -1349,9 +1364,18 @@
 <!-- TRADE & AREA AVAILABILITY -->
 <section id="verticals">
   <div class="section-inner">
-    <div class="section-label">Check Your Trade &amp; Area</div>
+    <div class="section-label">Trades We Work With</div>
     <h2 id="availability" style="scroll-margin-top:90px">Any trade. Any town.</h2>
     <p class="section-sub">We can build a lead website for almost any trade, in any town, across Canada and beyond. If we already run one for your trade and area, you can start getting its leads. If not, we&rsquo;ll build one, for you to rent or to own. Tell us what you do and where, and we&rsquo;ll reply within one business day.</p>
+
+
+    <div class="tr-grid" aria-label="Trades we build lead websites for">
+      <div class="tr-group"><h3>Renovation &amp; building</h3><ul><li>General contracting</li><li>Home renovation</li><li>Basement renovation</li><li>Kitchen renovation</li><li>Bathroom renovation</li><li>Custom &amp; luxury homes</li><li>Drywall</li><li>Painting</li><li>Insulation</li><li>Decks</li><li>Concrete</li><li>Epoxy flooring</li></ul></div>
+      <div class="tr-group"><h3>Exterior &amp; property</h3><ul><li>Roofing</li><li>Eavestroughs &amp; gutters</li><li>Siding</li><li>Windows</li><li>Fencing</li><li>Interlocking &amp; hardscaping</li><li>Excavation</li><li>Hydrovac</li><li>Tree service</li><li>Lawn care</li><li>Snow removal</li><li>Christmas light installation</li></ul></div>
+      <div class="tr-group"><h3>Mechanical &amp; repair</h3><ul><li>Plumbing</li><li>Electrical</li><li>HVAC</li><li>Furnaces &amp; heating</li><li>Air conditioning</li><li>Gas fitting</li><li>Fire alarms</li><li>Garage doors</li><li>Appliance repair</li><li>Locksmith</li><li>Metal fabrication</li><li>Auto repair</li></ul></div>
+      <div class="tr-group"><h3>Cleaning &amp; restoration</h3><ul><li>Mold removal</li><li>Basement waterproofing</li><li>Water damage</li><li>Foundation repair</li><li>Pest control</li><li>Commercial cleaning</li><li>House cleaning</li><li>Carpet cleaning</li><li>Window cleaning</li><li>Power washing</li><li>Duct cleaning</li><li>Junk removal &amp; dumpster rental</li></ul></div>
+    </div>
+    <p class="tr-more">Don&rsquo;t see yours? Movers, chauffeurs, insurance, real estate and more. If customers search for it, we can build it.</p>
 
     <a href="#contact" class="avail-cta">Tell us your trade and town &#8594;</a>
 
