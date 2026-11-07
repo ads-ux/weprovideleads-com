@@ -1003,6 +1003,32 @@
 
   /* HERO FLOW DIAGRAM */
   .hero-flow { background: var(--white); padding: 40px 24px 8px; }
+
+  /* LEAD VALUE CALCULATOR */
+  #lead-value { background: var(--white); padding: 48px 24px 56px; }
+  .lv-inner { max-width: 900px; margin: 0 auto; }
+  .lv-card { display: grid; grid-template-columns: 1.1fr 1fr; gap: 0; border: 1px solid var(--border); border-radius: 16px; overflow: hidden; box-shadow: 0 8px 28px rgba(26,86,219,0.08); }
+  .lv-inputs { display: grid; grid-template-columns: 1fr 1fr; gap: 16px 18px; padding: 26px; background: var(--white); align-content: start; }
+  .lv-full { grid-column: 1 / -1; }
+  .lv-field label { display: block; font-size: 0.86rem; font-weight: 600; color: var(--dark); margin-bottom: 6px; }
+  .lv-in { position: relative; }
+  .lv-in input { width: 100%; box-sizing: border-box; font: inherit; font-size: 1.05rem; padding: 11px 12px; border: 1.5px solid var(--border); border-radius: 8px; color: var(--dark); }
+  .lv-in input:focus { outline: none; border-color: var(--blue); }
+  .lv-pre, .lv-suf { position: absolute; top: 50%; transform: translateY(-50%); color: var(--muted); pointer-events: none; }
+  .lv-pre { left: 12px; } .lv-suf { right: 12px; }
+  .lv-in input#lv-job { padding-left: 26px; } .lv-in input#lv-close { padding-right: 30px; }
+  #lv-leads { width: 100%; accent-color: var(--blue); }
+  .lv-scale { display: flex; justify-content: space-between; font-size: 0.75rem; color: var(--muted); }
+  .lv-result { background: linear-gradient(160deg, #1e3a8a, #1a56db); color: #fff; padding: 26px; display: flex; flex-direction: column; justify-content: center; }
+  .lv-k { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 1px; opacity: 0.85; }
+  .lv-big { font-size: 2.5rem; font-weight: 800; line-height: 1.1; margin: 4px 0 6px; }
+  .lv-big small { font-size: 1rem; font-weight: 600; opacity: 0.85; }
+  .lv-line { font-size: 0.95rem; opacity: 0.92; margin-bottom: 16px; }
+  .lv-price { font-size: 0.92rem; background: rgba(255,255,255,0.12); border-radius: 8px; padding: 10px 12px; margin-bottom: 16px; }
+  .lv-cta { display: inline-block; align-self: flex-start; background: #fff; color: var(--blue); font-weight: 800; padding: 13px 22px; border-radius: 8px; text-decoration: none; }
+  .lv-cta:hover { background: #eef2ff; }
+  .lv-fine { text-align: center; font-size: 0.8rem; color: var(--muted); margin: 14px auto 0; max-width: 620px; }
+  @media (max-width: 760px) { .lv-card { grid-template-columns: 1fr; } }
   .hero-flow-inner { max-width: 960px; margin: 0 auto; display: flex; align-items: flex-start; justify-content: space-between; }
   .hero-flow-step { flex: 1; text-align: center; padding: 0 12px; }
   .hero-flow-icon-wrap {
@@ -1256,6 +1282,40 @@
     </div>
   </div>
 </div>
+
+<!-- LEAD VALUE CALCULATOR -->
+<section id="lead-value" aria-labelledby="lv-heading">
+  <div class="lv-inner">
+    <div class="flow-label">Do the Math</div>
+    <h2 id="lv-heading" class="flow-title">What are these leads worth to you?</h2>
+    <p class="flow-sub">Put in your own numbers. This stays on your screen; nothing is sent until you fill in the form.</p>
+    <div class="lv-card">
+      <div class="lv-inputs">
+        <div class="lv-field">
+          <label for="lv-job">Average job</label>
+          <div class="lv-in"><span class="lv-pre">$</span><input type="number" id="lv-job" value="2500" min="0" step="50" inputmode="numeric"></div>
+        </div>
+        <div class="lv-field">
+          <label for="lv-close">Quotes you win</label>
+          <div class="lv-in"><input type="number" id="lv-close" value="30" min="0" max="100" step="1" inputmode="numeric"><span class="lv-suf">%</span></div>
+        </div>
+        <div class="lv-field lv-full">
+          <label for="lv-leads">Leads a month: <strong id="lv-leads-out">5</strong></label>
+          <input type="range" id="lv-leads" min="1" max="15" step="1" value="5">
+          <div class="lv-scale"><span>1</span><span>15</span></div>
+        </div>
+      </div>
+      <div class="lv-result" aria-live="polite">
+        <div class="lv-k">Work you could win</div>
+        <div class="lv-big"><span id="lv-month">$3,750</span><small> a month</small></div>
+        <div class="lv-line"><span id="lv-jobs">1.5</span> jobs a month &middot; <span id="lv-year">$45,000</span> a year</div>
+        <div class="lv-price">Exclusive leads start at <strong>$200 a month</strong>. Your first 5 are free.</div>
+        <a href="#contact" class="lv-cta" id="lv-cta" data-service="rent">Get My 5 Free Leads &#8594;</a>
+      </div>
+    </div>
+    <p class="lv-fine">An estimate from the numbers you enter, not a promise. How many leads a website sends depends on your trade, your area and the season.</p>
+  </div>
+</section>
 
 <!-- VERIFIED CONTRACTOR RESULT -->
 <section id="case-study-preview" style="background:var(--bg);">
@@ -1542,6 +1602,9 @@
           <input type="text" id="fweb" name="website" inputmode="url" autocomplete="url" placeholder="yourbusiness.com">
         </div>
         <input type="hidden" name="location_check" id="flocation-check" value="">
+        <input type="hidden" name="est_job_value" id="fest-job" value="">
+        <input type="hidden" name="est_close_rate" id="fest-close" value="">
+        <input type="hidden" name="est_monthly_value" id="fest-month" value="">
         <div class="form-group">
           <label for="fmsg">Anything else? <span style="font-weight:400;color:var(--muted)">(optional)</span></label>
           <textarea id="fmsg" name="message" placeholder="Current lead sources, questions &mdash; anything helpful."></textarea>
@@ -1710,5 +1773,27 @@
 })();
 </script>
 
+<script>
+(function () {
+  var job = document.getElementById("lv-job"), cl = document.getElementById("lv-close"), ld = document.getElementById("lv-leads");
+  if (!job || !cl || !ld) return;
+  var m = function (n) { return "$" + Math.round(n).toLocaleString("en-CA"); };
+  var touched = false;
+  function calc() {
+    var j = Math.max(0, parseFloat(job.value) || 0), c = Math.min(100, Math.max(0, parseFloat(cl.value) || 0)), l = parseInt(ld.value, 10) || 0;
+    var jobs = l * c / 100, month = jobs * j;
+    document.getElementById("lv-leads-out").textContent = l;
+    document.getElementById("lv-jobs").textContent = (Math.round(jobs * 10) / 10).toLocaleString("en-CA");
+    document.getElementById("lv-month").textContent = m(month);
+    document.getElementById("lv-year").textContent = m(month * 12);
+    if (touched) {
+      var fj = document.getElementById("fest-job"), fc = document.getElementById("fest-close"), fm = document.getElementById("fest-month");
+      if (fj) fj.value = m(j); if (fc) fc.value = c + "%"; if (fm) fm.value = m(month) + "/mo at " + l + " leads";
+    }
+  }
+  [job, cl, ld].forEach(function (el) { el.addEventListener("input", function () { touched = true; calc(); }); });
+  calc();
+})();
+</script>
 </body>
 </html>
