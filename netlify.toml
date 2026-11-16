@@ -257,3 +257,14 @@ from = "/sign-up"
 to = "/contractor-application"
 status = 301
 force = true
+
+# Lead-supplier signup pages: shared by DM only, keep out of search
+[[headers]]
+for = "/sell-your-leads*"
+[headers.values]
+X-Robots-Tag = "noindex, nofollow"
+
+[[headers]]
+for = "/thank-you-lead-supplier*"
+[headers.values]
+X-Robots-Tag = "noindex, nofollow"
